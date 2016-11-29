@@ -1,0 +1,623 @@
+/* 
+TRANS UNION STYLEGUIDE 
+AUTHOR: AVENUE, INC
+VERSION: 0.3
+*/
+
+/* TYPOGRAPHY */
+
+//  * The fonts listed in this notice are subject to the End User License
+//  * Agreement(s) entered into by the website owner. All other parties are 
+//  * explicitly restricted from using the Licensed Webfonts(s).
+//  * 
+//  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2898902
+//  * Licensed pageviews: 20,000,000
+//  * Webfonts copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+//  * 
+//  * © 2014 MyFonts Inc 
+// */
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {font-family: 'IntroBold';src: url('fonts/font-intro/2C3BD6_0_0.eot');src: url('fonts/font-intro/2C3BD6_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/font-intro/2C3BD6_0_0.woff') format('woff'),url('fonts/font-intro/2C3BD6_0_0.ttf') format('truetype'),url('fonts/font-intro/2C3BD6_0_0.svg#wf') format('svg');}
+@font-face {font-family: 'IntroBoldItalic';src: url('fonts/font-intro/2C3BD6_1_0.eot');src: url('fonts/font-intro/2C3BD6_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/font-intro/2C3BD6_1_0.woff') format('woff'),url('fonts/font-intro/2C3BD6_1_0.ttf') format('truetype'),url('fonts/font-intro/2C3BD6_1_0.svg#wf') format('svg');} 
+@font-face {font-family: 'IntroLight';src: url('fonts/font-intro/2C3BD6_2_0.eot');src: url('fonts/font-intro/2C3BD6_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/font-intro/2C3BD6_2_0.woff') format('woff'),url('fonts/font-intro/2C3BD6_2_0.ttf') format('truetype'),url('fonts/font-intro/2C3BD6_2_0.svg#wf') format('svg');} 
+@font-face {font-family: 'IntroLightItalic';src: url('fonts/font-intro/2C3BD6_3_0.eot');src: url('fonts/font-intro/2C3BD6_3_0.eot?#iefix') format('embedded-opentype'),url('fonts/font-intro/2C3BD6_3_0.woff') format('woff'),url('fonts/font-intro/2C3BD6_3_0.ttf') format('truetype'),url('fonts/font-intro/2C3BD6_3_0.svg#wf') format('svg');}
+@font-face {font-family: 'IntroRegular';src: url('fonts/font-intro/2C3BD6_4_0.eot');src: url('fonts/font-intro/2C3BD6_4_0.eot?#iefix') format('embedded-opentype'),url('fonts/font-intro/2C3BD6_4_0.woff') format('woff'),url('fonts/font-intro/2C3BD6_4_0.ttf') format('truetype'),url('fonts/font-intro/2C3BD6_4_0.svg#wf') format('svg');}
+@font-face {font-family: 'IntroRegularItalic';src: url('fonts/font-intro/2C3BD6_5_0.eot');src: url('fonts/font-intro/2C3BD6_5_0.eot?#iefix') format('embedded-opentype'),url('fonts/font-intro/2C3BD6_5_0.woff') format('woff'),url('fonts/font-intro/2C3BD6_5_0.ttf') format('truetype'),url('fonts/font-intro/2C3BD6_5_0.svg#wf') format('svg');}
+@font-face {font-family: 'IntroSemiBold';src: url('fonts/font-intro/2C3BD6_6_0.eot');src: url('fonts/font-intro/2C3BD6_6_0.eot?#iefix') format('embedded-opentype'),url('fonts/font-intro/2C3BD6_6_0.woff') format('woff'),url('fonts/font-intro/2C3BD6_6_0.ttf') format('truetype'),url('fonts/font-intro/2C3BD6_6_0.svg#wf') format('svg');}
+
+@font-face {font-family: 'IntroSemiBoldCaps';src: url('fonts/font-intro/2C3BD6_7_0.eot');src: url('fonts/font-intro/2C3BD6_7_0.eot?#iefix') format('embedded-opentype'),url('fonts/font-intro/2C3BD6_7_0.woff') format('woff'),url('fonts/font-intro/2C3BD6_7_0.ttf') format('truetype'),url('fonts/font-intro/2C3BD6_7_0.svg#wf') format('svg');}
+@font-face {font-family: 'IntroSemiBoldItalic';src: url('fonts/font-intro/2C3BD6_8_0.eot');src: url('fonts/font-intro/2C3BD6_8_0.eot?#iefix') format('embedded-opentype'),url('fonts/font-intro/2C3BD6_8_0.woff') format('woff'),url('fonts/font-intro/2C3BD6_8_0.ttf') format('truetype'),url('fonts/font-intro/2C3BD6_8_0.svg#wf') format('svg');}
+
+@font-face {
+  font-family: "tu-icon-font";
+  src:url("fonts/font-intro/tu-icon-font.eot");
+  src:url("fonts/font-intro/tu-icon-font.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-intro/tu-icon-font.woff") format("woff"),
+    url("fonts/font-intro/tu-icon-font.ttf") format("truetype"),
+    url("fonts/font-intro/tu-icon-font.svg#tu-icon-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+/* TYPE FACES */
+
+
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "tu-icon-font";
+  src:url("fonts/font-intro/tu-icon-font.eot");
+  src:url("fonts/font-intro/tu-icon-font.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-intro/tu-icon-font.woff") format("woff"),
+    url("fonts/font-intro/tu-icon-font.ttf") format("truetype"), 
+    url("fonts/font-intro/tu-icon-font.svg#tu-icon-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+} 
+
+
+
+[data-icon]:before {
+  font-family: "tu-icon-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+	font-weight: normal !important;
+	font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "tu-icon-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: ")";
+}
+.icon-user:before {
+  content: "@";
+}
+.icon-password:before {
+  content: "9";
+}
+.icon-logout:before {
+  content: "X";
+}
+.icon-login:before {
+  content: "W";
+}
+.icon-print:before {
+  content: "$";
+}
+.icon-download:before {
+  content: "C";
+}
+.icon-tools:before {
+  content: "<";
+}
+.icon-chat:before {
+  content: "k";
+}
+.icon-mail:before {
+  content: "Y";
+}
+.icon-settings:before {
+  content: "+";
+}
+.icon-connect:before {
+  content: "n";
+}
+.icon-mitigate-risk:before {
+  content: "2";
+}
+.icon-catch-fraud:before {
+  content: "j";
+}
+.icon-identity-protection:before {
+  content: "N";
+}
+.icon-court:before {
+  content: "p";
+}
+.icon-bank:before {
+  content: "f";
+}
+.icon-insurance:before {
+  content: "Q";
+}
+.icon-calculator:before {
+  content: "g";
+}
+.icon-loan:before {
+  content: "T";
+}
+.icon-mortgage:before {
+  content: "4";
+}
+.icon-consultative-people:before {
+  content: "o";
+}
+.icon-credit-history:before {
+  content: "t";
+}
+.icon-credit-score:before {
+  content: "x";
+}
+.icon-credit-monitoring:before {
+  content: "v";
+}
+.icon-poor-credit-score:before {
+  content: "#";
+}
+.icon-good-credit-score:before {
+  content: "H";
+}
+.icon-credit-issue:before {
+  content: "u";
+}
+.icon-resolve-credit-issue:before {
+  content: "(";
+}
+.icon-document:before {
+  content: "B";
+}
+.icon-alert:before {
+  content: "a";
+}
+.icon-notification:before {
+  content: "6";
+}
+.icon-info:before {
+  content: "P";
+}
+.icon-monitor:before {
+  content: "3";
+}
+.icon-identity:before {
+  content: "M";
+}
+.icon-security:before {
+  content: "*";
+}
+.icon-graph:before {
+  content: "J";
+}
+.icon-home:before {
+  content: "L";
+}
+.icon-dashboard:before {
+  content: "y";
+}
+.icon-credit-card:before {
+  content: "s";
+}
+.icon-shopping-cart:before {
+  content: ",";
+}
+.icon-location:before {
+  content: "U";
+}
+.icon-lock:before {
+  content: "V";
+}
+.icon-unlock:before {
+  content: ">";
+}
+.icon-education:before {
+  content: "D";
+}
+.icon-thumbs-up:before {
+  content: ";";
+}
+.icon-product:before {
+  content: "%";
+}
+.icon-globe:before {
+  content: "G";
+}
+.icon-profession:before {
+  content: "&";
+}
+.icon-database:before {
+  content: "z";
+}
+.icon-patent-pending:before {
+  content: "!";
+}
+.icon-offer-varification:before {
+  content: "7";
+}
+.icon-multidimentional-view:before {
+  content: "5";
+}
+.icon-auto:before {
+  content: "d";
+}
+.icon-campaign-measurement:before {
+  content: "h";
+}
+.icon-auto-insurance:before {
+  content: "e";
+}
+.icon-property-insurance:before {
+  content: "'";
+}
+.icon-wallet:before {
+  content: "\\";
+}
+.icon-company-attributes:before {
+  content: "l";
+}
+.icon-industry-verticals:before {
+  content: "O";
+}
+.icon-matching:before {
+  content: "0";
+}
+.icon-targeted:before {
+  content: "/";
+}
+.icon-targeted-campaign:before {
+  content: ":";
+}
+.icon-computer:before {
+  content: "m";
+}
+.icon-phone:before {
+  content: "\"";
+}
+.icon-tablet:before {
+  content: ".";
+}
+.icon-approved:before {
+  content: "b";
+}
+.icon-declined:before {
+  content: "A";
+}
+.icon-exclamation:before {
+  content: "E";
+}
+.icon-optimization:before {
+  content: "8";
+}
+.icon-support:before {
+  content: "-";
+}
+.icon-create-account:before {
+  content: "q";
+}
+.icon-varify-account:before {
+  content: "[";
+}
+.icon-credit-bureau:before {
+  content: "r";
+}
+.icon-lifestage-events:before {
+  content: "R";
+}
+.icon-mail-exclamation:before {
+  content: "Z";
+}
+.icon-credit-scope:before {
+  content: "w";
+}
+.icon-audrey:before {
+  content: "c";
+}
+.icon-menu:before {
+  content: "1";
+}
+.icon-load-wheel:before {
+  content: "S";
+}
+.icon-usa:before {
+  content: "?";
+}
+.icon-canada:before {
+  content: "i";
+}
+.icon-up-right:before {
+  content: "]";
+}
+.icon-up-left:before {
+  content: "^";
+}
+.icon-down-left:before {
+  content: "_";
+}
+.icon-down-right:before {
+  content: "`";
+}
+.icon-forward:before {
+  content: "{";
+}
+.icon-backward:before {
+  content: "|";
+}
+.icon-email:before {
+  content: "}";
+}
+.icon-facebook:before {
+  content: "F";
+  left: 0;
+  right:1px;
+  position:relative; 
+}
+.icon-twitter:before {
+  content: "=";
+}
+.icon-google:before {
+  content: "I";
+}
+.icon-youtube:before {
+  content: "\e000";
+}
+.icon-linkedin:before {
+  content: "~";
+}
+.icon-help:before {
+  content: "K";
+}
+.icon-angle-double-down:before {
+  content: "\e001";
+}
+.icon-angle-double-left:before {
+  content: "\e002";
+}
+.icon-angle-double-up:before {
+  content: "\e004";
+}
+.icon-angle-down:before {
+  content: "\e005";
+}
+.icon-angle-left:before {
+  content: "\e006";
+}
+.icon-angle-right:before {
+  content: "\e007";
+}
+.icon-angle-up:before {
+  content: "\e008";
+}
+.icon-arrow-down:before {
+  content: "\e009";
+}
+.icon-arrow-left:before {
+  content: "\e00a";
+}
+.icon-arrow-right:before {
+  content: "\e00b";
+}
+.icon-arrow-up:before {
+  content: "\e00c";
+}
+.icon-arrows-horizontal:before {
+  content: "\e00d";
+}
+.icon-arrows-vertical:before {
+  content: "\e00e";
+}
+.icon-asterisk:before {
+  content: "\e00f";
+}
+.icon-award:before {
+  content: "\e010";
+}
+.icon-calculator-1:before {
+  content: "\e011";
+}
+.icon-caret-down:before {
+  content: "\e012";
+}
+.icon-caret-left:before {
+  content: "\e013";
+}
+.icon-caret-right:before {
+  content: "\e014";
+}
+.icon-caret-up:before {
+  content: "\e015";
+}
+.icon-check:before {
+  content: "\e016";
+}
+.icon-circle:before {
+  content: "\e017";
+}
+.icon-circle-open:before {
+  content: "\e018";
+}
+.icon-clipboard:before {
+  content: "\e019";
+}
+.icon-clock:before {
+  content: "\e01a";
+}
+.icon-close:before {
+  content: "\e01b";
+}
+.icon-close-circle:before {
+  content: "\e01c";
+}
+.icon-cloud:before {
+  content: "\e01d";
+}
+.icon-cloud-download:before {
+  content: "\e01e";
+}
+.icon-cloud-upload:before {
+  content: "\e01f";
+}
+.icon-columns:before {
+  content: "\e020";
+}
+.icon-dollar:before {
+  content: "\e021";
+}
+.icon-ellipsis:before {
+  content: "\e022";
+}
+.icon-exclamation-1:before {
+  content: "\e023";
+}
+.icon-fast-backward:before {
+  content: "\e024";
+}
+.icon-fast-forward:before {
+  content: "\e025";
+}
+.icon-file:before {
+  content: "\e026";
+}
+.icon-files:before {
+  content: "\e027";
+}
+.icon-flash:before {
+  content: "\e028";
+}
+.icon-floppy-save:before {
+  content: "\e029";
+}
+.icon-folder:before {
+  content: "\e02a";
+}
+.icon-folder-open:before {
+  content: "\e02b";
+}
+.icon-for-sale-rent:before {
+  content: "\e02c";
+}
+.icon-hand-down:before {
+  content: "\e02d";
+}
+.icon-hand-left:before {
+  content: "\e02e";
+}
+.icon-hand-right:before {
+  content: "\e02f";
+}
+.icon-hand-up:before {
+  content: "\e030";
+}
+.icon-heart:before {
+  content: "\e031";
+}
+.icon-home-foreclosure:before {
+  content: "\e032";
+}
+.icon-hospital:before {
+  content: "\e033";
+}
+.icon-house-alert:before {
+  content: "\e034";
+}
+.icon-house-approved:before {
+  content: "\e035";
+}
+.icon-list:before {
+  content: "\e036";
+}
+.icon-list-alt:before {
+  content: "\e037";
+}
+.icon-minus-circle:before {
+  content: "\e038";
+}
+.icon-pencil:before {
+  content: "\e039";
+}
+.icon-pencil-square:before {
+  content: "\e03a";
+}
+.icon-people-group:before {
+  content: "\e03b";
+}
+.icon-physician:before {
+  content: "\e03c";
+}
+.icon-plus:before {
+  content: "\e03d";
+}
+.icon-plus-circle:before {
+  content: "\e03e";
+}
+.icon-ribbon:before {
+  content: "\e03f";
+}
+.icon-search-people:before {
+  content: "\e040";
+}
+.icon-second-home:before {
+  content: "\e041";
+}
+.icon-share:before {
+  content: "\e042";
+}
+.icon-share-alt:before {
+  content: "\e043";
+}
+.icon-sort:before {
+  content: "\e044";
+}
+.icon-sort-asc:before {
+  content: "\e045";
+}
+.icon-sort-desc:before {
+  content: "\e046";
+}
+.icon-star:before {
+  content: "\e047";
+}
+.icon-step-backward:before {
+  content: "\e048";
+}
+.icon-step-forward:before { 
+  content: "\e049";
+}
+.icon-table:before {
+  content: "\e04a";
+}
+.icon-tag:before {
+  content: "\e04b";
+}
+.icon-thumb-tack:before {
+  content: "\e04c";
+}
+.icon-vacation-home:before {
+  content: "\e04d";
+}
+.icon-upload:before {
+  content: "\e04e";
+}
+.icon-undo:before {
+  content: "\e04f";
+}
+.icon-angle-double-right:before {
+  content: "\e003";
+}
+
+// Icon Overides
+  .icon-cort:before {
+  content: "j" !important;
+}
+

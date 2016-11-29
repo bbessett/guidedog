@@ -1,0 +1,1672 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ar",
+				"Arial"
+			],
+			[
+				"Intro",
+				"introBold"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"react",
+				"reactjs"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"In",
+				"IntroRegular"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"toggleCl",
+				"toggleClass( value, stateVal )\tjquery-1.11.1.js"
+			],
+			[
+				"blog",
+				"blogpost\t_page.js"
+			],
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"images",
+				"imagesLoaded"
+			],
+			[
+				"clos",
+				"closest()\tjquery.jcarousel.js"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"sub",
+				"subApplicant2"
+			],
+			[
+				"add",
+				"addtoany"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"post-so",
+				"post-social-bottom"
+			],
+			[
+				"applicant",
+				"applicant"
+			],
+			[
+				"IntroLi",
+				"IntroLightItalic"
+			],
+			[
+				"u",
+				"ul"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"promo",
+				"promo-content-area"
+			],
+			[
+				"re",
+				"recommendation"
+			],
+			[
+				"a",
+				"applicant"
+			],
+			[
+				"Aplic",
+				"ApplicationStatus"
+			],
+			[
+				"btn",
+				"btn-yellow"
+			],
+			[
+				"Dec",
+				"decision\tapplications.js"
+			],
+			[
+				"pag",
+				"paginateCollapse(e)\tmanage_leasing_agents.js"
+			],
+			[
+				"con",
+				"conversion"
+			],
+			[
+				"user",
+				"UserType\tapplications.js"
+			],
+			[
+				"table",
+				"tableheader\teviction_summary.js"
+			],
+			[
+				"idle",
+				"idleInterval"
+			],
+			[
+				"sec",
+				"secondsleft"
+			],
+			[
+				"_pre",
+				"_prerender\tforms.js"
+			],
+			[
+				"control",
+				"ControllerSubmit(method, redirect_page, e)\tmy_properties.js"
+			],
+			[
+				"landLord",
+				"landlordRadio"
+			],
+			[
+				"tri",
+				"triggerEvent"
+			],
+			[
+				"landlord_app",
+				"landlord_my_applications_closed"
+			],
+			[
+				"criminal",
+				"criminalSummaryFull"
+			],
+			[
+				"template",
+				"templateLoader"
+			],
+			[
+				"templat",
+				"templateLoader"
+			],
+			[
+				"ev",
+				"evictionRecordList"
+			],
+			[
+				"appli",
+				"applicantInfo"
+			],
+			[
+				"crim",
+				"criminal_report_detail"
+			],
+			[
+				"Creat",
+				"Create-Account"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"inlne",
+				"inline-block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"pul",
+				"pull-right"
+			],
+			[
+				"pa",
+				"Page"
+			],
+			[
+				"tran",
+				"transition"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/sass/stylesheets/base/_base.scss",
+			"settings":
+			{
+				"buffer_size": 3406,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/stylesheets/main.scss",
+			"settings":
+			{
+				"buffer_size": 915,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/stylesheets/themes/_default.scss",
+			"settings":
+			{
+				"buffer_size": 2612,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 30937,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sass/stylesheets/base/_fonts.scss",
+			"settings":
+			{
+				"buffer_size": 13212,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/stylesheets/abstracts/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 3056,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "// -----------------------------------------------------------------------------\n// This file contains all styles related to the header of the site/application.\n// -----------------------------------------------------------------------------\n\n/* ========================================================================== */\n/*   Header                                                                   */\n/* ========================================================================== */\n.header-top {\n\tpadding-bottom:10px;\n\tpadding-top:10px;\n}\n\nhtml > body  .header {\n\tmax-width: 100% !important; \n\tmargin-bottom:0 !important;\n}\n\n\n.header {\n\n\t@include user-select(none); \n\tmax-width: 100% !important;\n\tmargin-bottom: 0 !important;\n\tclear: both;\n\n\t.logo { \t\n\t\t-webkit-transform: translate3d(0,0,0);\n\t\t-moz-transform: translate3d(0,0,0);\n\t\t-ms-transform: translate3d(0,0,0); \n\t\t-o-transform: translate3d(0,0,0);\n\t\ttransform: translate3d(0,0,0);\n\t\t@include transition(height 0.3s ease);\n\t\t//margin: 20px 0 50px; Changed for new branding logo\n\t\tmargin: -28px 0 0 0; \n\t\tmax-width: 355px;\n\t\tposition: relative;\n\t\ttop: -22px;\n\t\theight: 130px;\n\t\tleft: 0;\n\t\timg { \n\t\t\twidth: 110% !important;\n\t\t}\n\t\t@include breakpoint(narrow) {\n\t\t\timg { \n\t\t\t\twidth: 100% !important;\n\t\t\t}\n\t\t}\n\n\t\t@media (max-width: 1200px) { \n\t\t\tmargin: -23px 0 0 0;\n\t\t\tleft: 6%;\n\t\t}           \n\t\ta {\n\t\t\tdisplay:block;\n\t\t\twidth:100%;\n\t\t}\n\n\t\t&:after {\n\t\t\t@include background(url(../img/general/sm_logo.png));\n\t\t\t@include background(url(../img/svg/sm_logo.svg),none);\n\t\t\tbackground-size: 0;\n\t\t\tdisplay: none;\n\t\t}\n\n\t\t@include breakpoint(medium) { \n\t\t\tleft: -13%;\n\t\t\ttop: -18px;\n\t\t\tmargin: 0 0 -57px 0;\n\t\t}\n\n\t\t@include breakpoint(narrow) { \n\t\t\tmargin: 0 auto;\n\t\t\tpadding-bottom: 0 !important;\n\t\t\twidth: auto !important;\n\t\t\tright: 0;\n\t\t\tleft: 0;\n\t\t\ttop: -22px;\n\t\t\tmargin-bottom: -60px !important;\n\t\t} \n\n\t\t@include ipad(portrait) {\n\t\t\tleft: -12% !important;\n\t\t\ttop: -41px !important;\n\t\t\tmargin-bottom: -120px !important;\n\t\t}\n\n\n\t\t@include iphone5(portrait) {\n\t\t\ttop: -35px;\n\t\t\tmargin-bottom: -39px !important;\n\n\t\t} \n\n\n\t}\n\n  .cobr-active {\n  \t\t.cobrand_logo {\n  \t\t\t\n  \t\t\t max-width:140px;\n  \t\t}\t\n\t\t.logo {\n\t\t\tmargin: -3px 0 0 0;\n\t\t\ttop: -20px;\n\t\t\theight: 130px;\n\t\t\tleft: -30px;\n\n\n\t\t\t@media (max-width: 1200px) { \n\t\t\t\tmargin: -23px 0 0 0;\n\t\t\t\tleft: 6%;\n\t\t\t\ttop: 12px;\n\t\t\t}     \n\t\t\t@include breakpoint(medium) { \n\t\t\tleft: -13%;\n\t\t\tmargin: 0 0 -54px 0;\n\t\t\ttop: -8px;\n\t\t\t}\n\t\t\t@include breakpoint(narrow) { \n\t\t\t\tmargin: 0 auto;\n\t\t\t\tmargin-bottom: 0px !important;\n\t\t\t\tleft:0;\n\t\t\t\theight:auto; \n\t\t\t}\n\t\t\ta   \n\t\t\t{\n\t\t\t\twidth: 100% !important;\n\t\t\t\tmargin: 0 auto;\n\t\t\t\t@include breakpoint(narrow) { \n\t\t\t\t\tposition: relative;\n\t\t\t\t\ttext-align: center;\n\t\t\t\t}\n\t\t\t\timg \n\t\t\t\t{\n\t\t\t\t@media (max-width: 1200px) { \n\t\t\t\t\t\twidth:100%;\n\t\t\t\t }\n\t\t\t\t\twidth: 85% !important;\n\t\t\t\t\t@include breakpoint(medium) { \n\t\t\t\t\twidth: 68% !important;\n\t\t\t\t\t}\n\t\t\t\t} \n\t\t\t}\n\t\t}\n\n\t}\n\n\t.cobr-hidden  { \n\t\t.logo {\n\n\t\t\t@include breakpoint(medium) { \n\t\t\t\tleft: -9%;\n\t\t\t\ttop: -44px;\n\t\t\t\tmargin: 0 0 -118px 0;\n\t\t\t\theight: 100%;\n\t\t\t}\n\t\t\t@include breakpoint(narrow) { \n\t\t\t\tleft: 0;\n\t\t\t\tmargin:0 auto;\n\t\t\t\theight:100%;\n\t\t\t}\n\t\t\tleft: -9%\t;\n\n\t\t\t.logo {\n\t\t\t\t@media (max-width: 1200px) {\n\t\t\t\t\tmargin: -20px 0 -40px 0; \n\t\t\t\t\tleft: 6%;\n\t\t\t\t}    \n\t\t\t}\n\n\t\t}\n\t\t.cobrand-wrap  {\n\t\t\tdisplay:none !important;\t\n\t\t}\n} // end cobrand hidden\n\n.csstransitions & {\n\n\n\t@include ipad(landscape) {\n\t\t@include transition(none);\n\t}\n\t@include breakpoint(mobile) {\n\t\t@include transition(none);\n\t}\n}\n\n} //end header\n\n\n.header {\n\t.logo {\n\t\t@media (max-width: 1200px) {\n\t\t\ta {\n\t\t\t\twidth: 115% !important;\n\t\t\t}\n\n\t\t}\n\n\t\t@include breakpoint(tablet) {\n\t\t\ta { \n\t\t\t\twidth:95% !important;\n\t\t\t}\n\t\t}\n\t\t@include breakpoint(767) {\n\t\t\ta { \n\t\t\t\twidth:100% !important;\n\t\t\t}\n\t\t}\n\t}\n}\n\n\n\n.sticky-menu-active {\n\t\n\t.header {\n\t.cobr-active { \n\t.logo {\n\t\ttop: 0 !important;\t\n\t\tpadding-top: 2px;\n\t\tleft: -18px;\n\t\t@media (max-width: 1200px) {\n\t\ttop: 0 !important;\n\t\tleft: -4px;\n\t\tbottom: -2px;\n\t\t}\n\t\t@media (max-width: 1200px) {\t\n\t\timg {\t\n\t\t\twidth: 72% !important;\n\t\t}\n\t\t}\n\t\timg {\n\t\t\twidth: 68% !important;\n\t\t} \n\t\t }\n\t\t}\n\t}\n\n\t.logo {\n\t\t@media (max-width: 1200px) {\n\t\t\ta { \n\t\t\t\twidth: 115% !important;\n\t\t\t}\n\t\t}\n\t\t@include breakpoint(tablet) {\n\t\t\ta { \n\t\t\t\twidth:95%;\n\t\t\t}\n\t\t}\n\n\t\t@include breakpoint(767) {\n\t\t\ta { \n\t\t\t\twidth:100%;\n\t\t\t}\n\t\t}\n\t\timg {\n\t\t\twidth:100% !important;\n\t\t}\n\t\t@media (max-width: 1200px) {\n\t\t\timg {\n\t\t\t\twidth:100% !important;\n\t\t\t}\n\t\t}\n\n\t}\n\n\t.login-wrapper {\n\t\tpadding-top:0;\n\t\t.btn {\n\t\t\tpadding: 3px 5px 3px 5px !important;\n\t\t\ttransition: 0.2s;\n\t\t}\n\t\t.divider {\n\t\t\t-webkit-transform: translateZ(0);\n\t\t\t@include transition(all 0.5s);\n\t\t\tmax-height: 53px;\n\t\t\tpadding-top: 1px;\n\t\t}\n\n\t}\n\t.cobr-hidden {\n\t\t.logo {\n\t\t\tmargin: -20px 0 -40px 0 !important;\n\t\t\ttop: -35px !important;\n\n\t\t\t> a {\n\t\t\t\tright: 0 !important;\n\t\t\t}\n\t\t}\n\t}\n}\n\n#cobrandlogo {\n\t\n\tmargin-top:22px;\n\tmax-width:100%;\n\t\n\t@include breakpoint(medium) {\n\t\twidth: auto !important;\n\t\tmargin:33px auto 0 !important;\n\t}\n\n\t@include breakpoint(narrow) {\n\t\tmax-width: 23% !important;\n\t\tposition: relative;\n\t\twidth: auto;\n\t}\n\n\t@include breakpoint(mobile) {\n\t\tmax-width: 53% !important;\n\t\tposition: relative;\n\t\twidth: auto;\n\t\tmargin: 0 auto;\n\t}\n\t\n\n\n\t@include ipad(portrait) {\n\t\tmargin: 19px auto 0 !important;\n\t\tmax-width: 88% !important;\n\t\t.cobrand_logo {\t\n\t\t\tmax-width: 100% !important;\n\t\t}\n\t}\n\n\t@include iphone5(portrait) {\n\t\tmargin: 0 auto 0 !important;\n\n\t}\n\n\t.logo_img {\n\t\tborder: 0 none;\n\t\theight: auto;\n\t\tmax-width: 100% !important;\n\t\tposition: relative;\n\n\t\t.ie & {\n\t\t//\tmax-height: 67px;  HACK for IE\n\t}\n\n}\n}\n\n.header-top {\n\tmargin-left: 0;\n\tmargin-right: 0;\n}\n\n.login-wrapper {\n\tpadding-top:16px;\n\t\n\t@include breakpoint(medium) {\n\t\tposition: relative;\n\t\tbottom: 71px;\n\t\tpadding-top:0;\n\t}\n\t@include breakpoint(767) {\n\t\tposition: relative;\n\t\tbottom: 43px;\n\t\tpadding-top:0;\n\t}\n\n\t@include ipad(portait) {\n\t\tbottom:62px;\n\t}\n\n\n}\n\n\n\n.login {\n\t$padding: 30px;\n\tpadding: #{$padding} 0 0;\n\n\n\t@include breakpoint(narrow) {\n\t\tpadding: 0 0 #{$padding};\n\t}\n\n\n\t&,\n\t.action-btns {\n\t\tfloat: right;\n\t\tfont-size: 0;\n\t\tpadding-top: 13px;\n\t\ttext-align: right;\n\t\t@include breakpoint(767) {\n\t\t\tfont-size: 0;\n\t\t\tpadding-top: 13px;\n\t\t\ttext-align: center;\n\t\t\tmargin: 0 auto;\n\t\t\twidth: 100%;\n\t\t\ttext-align: center;\n\t\t}\n\n\t\ta {\n\t\t\tmargin-left: 5px;\n\t\t\t&:first-child {\n\t\t\t\tmargin-left: 10px;\n\t\t\t\t@include breakpoint(767) {\n\t\t\t\t\tmargin-left:0;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t}\n\n\t.col-md-6 {\n\t\tpadding: 12px 0 10px;\n\t}\n\n\t.divider {\n\t\tpadding:0;\n\t\tfloat: left;\n\t\tmax-height:60px;\n\t\t@include breakpoint(767) {\n\t\t\tborder: 0;\n\t\t\tmargin: 0 auto;\n\t\t\twidth: 100%;\n\t\t\tfloat:none;\n\t\t}\n\n\t}\n}\n\n\n.social-top  {\n\tpadding-right: 10px;\n\tpadding-top: 5px;\n\t@include breakpoint(767) {\n\t\tpadding-right: 0;\n\t\tpadding-top:0;\n\t}\n\tli {\n\t\tdisplay: block;\n\t\tvertical-align: top;\n\t\ttext-align: center;\n\t\tmargin-left:0;\n\t\t/* width: 36px; */\n\t\tfloat: left;\n\t\t@include breakpoint(767) {\n\t\t\tpadding-right: 0;\n\t\t\tdisplay: inline-block;\n\t\t\tvertical-align: top;\n\t\t\ttext-align: center;\n\t\t\twidth: auto;\n\t\t\tfloat: none;\n\t\t\tmargin: 0 auto;\n\n\t\t}\n\t}\n\n\ta {\n\t\tdisplay: block;\n\t\t&:first-child {\n\t\t\tmargin-left:0;\n\t\t}\n\t\t\n\n\t}\n}\n.social-wrap {\n\t@include breakpoint(tablet) {\n\t\twidth: 100%;\n\t\tdisplay: inline-block;\n\t\ttext-align: center;\n\t}\n\n\t.social-bottom {\n\t\t@include breakpoint(tablet) {\n\t\t\twidth: 100%;\n\t\t\tmargin: 0 auto;\n\t\t\ttext-align: center;\n\t\t}\n\n\t\tmargin-bottom: 10px;\n\t\tli {\n\t\t\tmargin-left: 0;\n\t\t\t@include breakpoint(tablet) {\n\t\t\t\tmargin:0 auto;\n\t\t\t\tdisplay:inline-block;\n\t\t\t}\n\t\t\t&:first-child {\n\t\t\t\tmargin-left: -7px;\n\t\t\t\t@include breakpoint(tablet) {\n\t\t\t\t\tmargin-left:0;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\ta {\n\n\t\t\theight: 40px;\n\t\t\twidth: 37px;\n\t\t\tmargin-right: 6px !important;\n\t\t\tfont-size: 43px !important;\n\t\t}\n\n\t}\n}\n\n\n\n.nb-btn-yellow {\n\tbackground:$button-yellow;\t\n\tborder-radius:0;\n\tcolor:#000;\n\t&:hover\t{\n\t\ttransition: .1s ease-in-out;\n\t\tbackground:$button-yellow-hover;\n\t}\n\n}\n\n\n\n.nb-btn-blue {\n\tborder:$blue-button;\t\n\tborder-radius:0;\n\tbackground:$white;\n\tcolor:#000;\n\t&:hover\t{\n\t\ttransition: .1s ease-in-out;\n\t// background:$light-grey;\n}\n\n}\n\n\n\n/* ========================================================================== */\n/*   Navs                                                                     */\n/* ========================================================================== */\n\n\n.nav-main {\n\tposition: relative;\n\n\t@include breakpoint(medium) {\n\t\tdisplay: block;\n\t\tfloat: none;\n\t\tpadding: 0;\n\t\twidth: 100%; \n\t}\n\n\th5 {\n\t\t// @include text-shadow(1px 1px 1px $white);\n\t\tcolor: $blue;\n\t\tfont-size: 15px;\n\t\tmargin-bottom: 5px;\n\t}\n\n\thr {\n\t\tborder: none;\n\t\tborder-bottom: 1px solid $white;\n\t\tborder-top: 1px solid #e4e4e4;\n\t\tclear: both;\n\t\theight: 0;\n\t\tmargin: 0 0 4px;\n\t\twidth: 100%; \n\t}\n\n\tul,\n\tol,\n\tli {\n\t\tlist-style: none;\n\t}\n\n\tli {\n\n\t\tli {\n\t\t\tline-height: 1.75;\n\t\t\tposition: relative;\n\t\t}\n\t}\n\t.list {\n\t\tli {\n\t\t\tmargin-bottom:0;\n\t\t}\n\t}\n\t.list-faq {\n\n\t\tli {\n\t\t\tmargin-bottom: 12px;\n\t\t}\n\t}\n\n\t.menu {\n\tbackground-color: $menu1;\n\tfont-size: 0;\n\theight: auto;\n\tline-height: 49px;\n\tmargin: 0 auto 0;\n\tborder-bottom:10px solid #fff;\n\t@include breakpoint(medium) {\n\tborder-bottom:0 !important;\n\t}\n\tposition: relative;\n\twidth: 100%;\n\tz-index: #{$top-z-index/10};\n\n\t@include breakpoint(medium) {\n\t\theight: auto;\n\t\tline-height: #{49px*1.5};\n\t\tmax-height: 0;\n\t\toverflow: hidden;\n\t\toverflow-x: hidden;\n\t\toverflow-y: hidden;\n\n\t\t.js & {\n\t\t\t//\tbackground: #171717;\n\t\t\tbackground: #171717;\n\t\t}\n\t}\n\n\t> ul {\n\t\tdisplay: table;\n\t\tline-height: inherit;\n\t\tposition: relative;\n\t\twidth: 100%;\n\n\t\t&,\n\t\t> li {\n\t\t\tmargin: 0;\n\t\t\tpadding: 0;\n\t\t}\n\n\t\t> li {\n\t\t\t\t//@include transition(background .5s ease);\n\t\t\t\tborder-bottom: 0;\n\t\t\t\tdisplay: table-cell;\n\t\t\t\twidth: 1%;\n\n\t\t\t\t@include breakpoint(medium) {\n\t\t\t\t\t//@include transition(none);\n\t\t\t\t\tbackground: #ededed !important;\n\t\t\t\t\tborder-bottom: 2px solid #fff;\n\t\t\t\t\tdisplay: block;\n\t\t\t\t\twidth: 100%;\n\t\t\t\t}\n\n\t\t\t\t&:first-child {\n\n\t\t\t\t\t> a {\n\t\t\t\t\t\tborder-left: 0;\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\t&:last-child {\n\n\t\t\t\t\t> a {\n\t\t\t\t\t\tborder-right: 0;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\ta:hover {\n\t\t\t\t\tcolor:$blue-hover;\t\n\t\t\t\t}\n\t\t\t\t&:hover {\n\n\t\t\t\t\t> .dropdown {\n\t\t\t\t\t\tleft: 0;\n\t\t\t\t\t\tmargin-top: $menu_height;\n\t\t\t\t\t\tright: -1px;\n\t\t\t\t\t\ttop: 0;\n\t\t\t\t\t\twidth: auto;\n\t\t\t\t\t}\n\n\t\t\t\t\t@include breakpoint(medium) {\n\n\t\t\t\t\t\t&,\n\t\t\t\t\t\t> a {\n\t\t\t\t\t\t\tbackground-color:#fff !important;\n\t\t\t\t\t\t\tcolor: $blue !important;\n\t\t\t\t\t\t\t// background: url(\"../img/blue-bar.png\") 0 0 repeat-x !important;\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\t> a {\n\t\t\t\t\tborder: {\n\t\t\t\t\t\tleft: 1px solid $menu_link_border_left_color;\n\t\t\t\t\t\tright: 1px solid $menu_link_border_right_color;\n\t\t\t\t\t};\n\t\t\t\t\tcolor: $menu_link_color;\n\t\t\t\t\tdisplay: block;\n\t\t\t\t\tfont: {\n\t\t\t\t\t\tsize: 14px;\n\t\t\t\t\t\t// weight: 700;\n\t\t\t\t\t};\n\t\t\t\t\toutline: 0 none;\n\t\t\t\t\tpadding: 0 15px;\n\t\t\t\t\ttext: {\n\t\t\t\t\t\talign: center;\n\t\t\t\t\t\tdecoration: none;\n\t\t\t\t\t\t// transform: uppercase;\n\t\t\t\t\t};\n\n\t\t\t\t\t@include breakpoint(medium) {\n\t\t\t\t\t\tborder: {\n\t\t\t\t\t\t\tleft: 0;\n\t\t\t\t\t\t\tright: 0;\n\t\t\t\t\t\t};\n\t\t\t\t\t}\n\n\t\t\t\t}\n\n\t\t\t\t> .dropdown + a:hover,\n\t\t\t\t&:hover > .dropdown + a {\n\t\t\t\t//\tbackground-color: #fff;\n\t\t\t\tbackground: url(\"../img/blue-bar.png\") 0 0 repeat-x;\n\t\t\t\t//\t@include background( linear-gradient(top, $menu_link_hover_gradient1 29%, $menu_link_hover_gradient2 100%) );\n\n\t\t\t\t\t// .ie.no-cssgradients & {\n\t\t\t\t\t// \t-pie-background: linear-gradient(top, $menu_link_hover_gradient1 29%, $menu_link_hover_gradient2 100%);\n\t\t\t\t\t// }\n\n\t\t\t\t\tcolor: $blue;\n\n\t\t\t\t\t&:before {\n\t\t\t\t\t\tborder: 0 none;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\t> li:hover,\n\t\t\t> .active {\n\t\t\t//\tbackground-color: $menu_item_hover_gradient1;\n\t\t\t\t//@include background( linear-gradient(top, $menu_item_hover_gradient1, $menu_item_hover_gradient2) );\n\t\t\t\t// background-repeat: repeat-x;\n\t\t\t\tbackground: url(\"../img/blue-bar.png\") 0 0 repeat-x;\n\t\t\t\t// .ie.no-cssgradients & {\n\t\t\t\t// \t-pie-background: linear-gradient(top, $menu_item_hover_gradient1, $menu_item_hover_gradient2);\n\t\t\t\t// }\n\t\t\t}\n\n\t\t\t> .active {\n\n\t\t\t\t> a {\n\t\t\t\t\tbackground: url(\"../img/blue-bar.png\") 0 0 repeat-x;\n\t\t\t\t\tborder: 0 none;\n\t\t\t\t\tposition: relative;\n\t\t\t\t\tcolor:$blue-hover;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\n\t.dropdown {\n\t\tbackground-color: $white;\n\t\t// @include transition(all 0.1s ease);\n\t\tborder: solid $blue;\n\t\tborder-width: 0 0 4px;\n\t\tcolor: #888; \n\t\tdisplay: block;\n\t\tfont-size: 12px;\n\t\tleft: -9999ex;\n\t\tmargin: 0;\n\t\tpadding: {\n\t\tbottom: 10px;\n\t\ttop: 24px;\n\t\t};\n\t\tposition: absolute;\n\t\ttop: -9999ex;\n\t\twidth: 100%;\n\t\tz-index: #{$top-z-index/10 - 2};\n\n\t\t@include breakpoint(medium) {\n\t\t\t@include transparent;\n\t\t\tbackground: none !important;\n\t\t\tdisplay: none !important;\n\t\t\theight: 0;\n\t\t\twidth: 0;\n\t\t}\n\n\t\t@include breakpoint(narrow) {\n\t\t\tbackground-color: transparent;\n\t\t\t// @include background( linear-gradient(to bottom, $dropdown_gradient1 71%, $dropdown_gradient2 100%) );\n\t\t}\n\n\t\t.lt-ie9 & {\n\t\t\tdisplay: block;\n\t\t\tzoom: 1;\n\n\t\t\t.dropdown_fullwidth_bg {\n\t\t\t\t//-pie-background: linear-gradient(top, $dropdown_gradient1 71%, $dropdown_gradient2 100%);\n\t\t\t\tbottom: 0;\n\t\t\t\tleft: 0;\n\t\t\t\tposition: absolute;\n\t\t\t\tright: 0;\n\t\t\t\ttop: 0;\n\t\t\t\tz-index: -1;\n\t\t\t}\n\t\t}\n\n\t\ta {\n\t\t\tcolor: $menu_linkcolor;\n\n\t\t\t&:hover {\n\t\t\t\ttext-decoration: underline;\n\t\t\t}\n\t\t}\n\n\t\t.pull-right {\n\t\t\tcolor: #888;\n\t\t\tline-height: normal;\n\n\t\t\t&:hover {\n\t\t\t\tcolor: $menu_linkcolor;\n\t\t\t}\n\t\t}\n\n\t\tul,\n\t\tol {\n\t\t\tmargin: 0 0 20px;\n\t\t\tpadding: 0;\n\t\t}\n\n\t\tul {\n\n\t\t\tul li {\n\t\t\t\tpadding-left: 10px;\n\t\t\t}\n\t\t}\n\t}\n\n\t.disable-pointer-events {\n\t\tpointer-events: none!important;\n\t}\n}\n\n\n.btn.btn-responsive-nav { \n\n\t @include tap-highlight-color;\n\t @include user-select(none);\n\t-webkit-touch-callout: none;\n\tdisplay:none !important;\n\tbackground: #1695BB !important;\n\twidth: 100% !important;\n\theight: auto;\n\ttext-align: center;\n\tposition: relative;\n\tmargin: -35px auto 0;\n\tbackground: none;\n\toutline: none;\n\tborder: none;\n\t-webkit-tap-highlight-color: rgba(0,0,0,0);\n\t-webkit-tap-highlight-color: transparent; /* For some Androids */\n\t-webkit-box-shadow: none !important;\n\tbox-shadow: none !important;\n\t// .lt-ie9 & {\n\t// \tleft: 100%;\n\t// \tmargin-left: -#{100%+$right};\n\t// \tright: auto;\n\t// } \n\n\t> span {\n\t\tfont-family: $body-font-family;\n\t\t// margin-right:5px;\n\t}\n\n\t@include breakpoint(medium) {\n\t\tdisplay: block !important;\n\t}\n\n}\nnav.nav-main .btn:active, nav.nav-main .btn.active {\n\t-webkit-box-shadow: none !important;\n\tbox-shadow: none !important; \n}\n\n.morph-shape svg {\n\theight: 25px;\n\twidth: 25px;\n\ttop: 2px;\n\tposition: relative;\n}\n\n\n.morph-shape svg path,\n.morph-shape svg line {\n\tstroke: #fff;\n\tstroke-width: 8px;\n\n\t-webkit-transform: translateZ(0);\n\t-webkit-transition: -webkit-transform 0.5s;\n\ttransition: transform 0.5s;\n\n\n}\n\n.active .morph-shape svg {\n\theight:25px;\n\twidth: 25px;\n\ttop: 3px;\n\tposition: relative;\n\t-webkit-transform: translateZ(0);\n\t-webkit-transform: translate(0,0) rotate(90deg);\n\ttransform: translate(0,0) rotate(90deg);\n\n}\n\n\n.active .morph-shape svg line:first-of-type {\ndisplay:none;\n}\n\n.active .morph-shape svg path:first-of-type {\n\t-webkit-transform: translate(30px, 0) rotate(56deg);\n    transform: translate(30px, 0) rotate(56deg);\n}\n.active .morph-shape svg path:nth-of-type(2) {\n\t-webkit-transform:translate(-35px,25px) rotate(-54deg);\n    transform: translate(-35px,25px) rotate(-54deg); \n}\n\n\n\n.sidebar-title {\n\tbackground: $white;\n\tcolor: #d1cbcb;\n\tfont-size: 18.5px;\n\tline-height: 20px;\n\tmargin: 0;\n\tpadding: 30px 10px 15px 25px;\n}\n.sidebar-menu {\n\tpadding: 0 10px 10px 25px;\n\n\t&,\n\tli ul {\n\t\tlist-style-type: none;\n\t}\n\n\t> li {\n\t\tborder-bottom: 1px solid #ccc;\n\n\t\t&:last-child {\n\t\t\tborder-bottom: 0;\n\n\t\t\ta {\n\t\t\t\tpadding-bottom: 0;\n\t\t\t}\n\t\t}\n\n\t\t&,\n\t\t> a {\n\t\t\tdisplay: block;\n\t\t}\n\n\t\t> a {\n\t\t\tcolor: $menu_link_border_left_color;\n\t\t\tfont-weight: 700;\n\t\t\tpadding: 5px 0;\n\t\t}\n\t}\n\n\tli {\n\n\t\tul {\n\t\t\tdisplay: none;\n\t\t\tmargin-left: 15px;\n\t\t\tpadding: 0 0 10px;\n\n\t\t\ta {\n\t\t\t\tcolor: #555;\n\t\t\t\tdisplay: block;\n\t\t\t\tfont-size: 12px;\n\t\t\t\tfont-weight: 700;\n\t\t\t}\n\t\t}\n\n\t}\n\n\t.icon {\n\t\tfont-family: inherit;\n\t\tline-height: inherit;\n\n\t\t> a {\n\t\t\tposition: relative;\n\n\t\t\t&:after {\n\t\t\tcolor: #958f7b;\n\t\t\t//\tcontent: \"\\f054\";\n\t\t\t// font-weight: $body-font-weight;\n\t\t\tmargin: {\n\t\t\t\tleft: 5px;\n\t\t\t\ttop: -.5em;\n\t\t\t};\n\t\t\tposition: absolute;\n\t\t\ttop: 50%;\n\t\t}\n\t}\n}\n\n.active {\n\n\t> a {\n\t\ttext-decoration: underline;\n\t}\n\n\tul {\n\t\tdisplay: block;\n\t}\n}\n}\n.renter_faq {\n\tmargin:-12px 0 0 0;\n\n\n.sticky-menu-active {\n\t.cobrand_logo{\n\t\tright: 0;\n\t\tbottom: 10%;\n\t\tposition: relative;\n\t\twidth: 100%;\n\t}\n\t.header {\n\t\tclear: none;\n\t\tposition: fixed;\n\t\twidth: 100%;\n\t\tz-index: #{$top-z-index/10000 + 1};\n\n\t\t> .container {\n\t\t\t@include box-shadow(0 2px 0 rgba(0,0,0,0.15));\n\t\t\n\t\t}\n\t\t.header-top {\n\t\t\tpadding-bottom:15px;\n\t\t\tpadding-top:5px;\n\n\t\t}\n\t\t.logo {\n\t\t\tmargin: 0 0 1%;\n\t\t\tpadding-right: 0;\n\t\t\tright: 0;\n\t\t\ttop: -10px;\n\t\t\tmargin: -20px 0 -40px 0 !important;\n\t\t\ttop: -35px !important;\n\t\t\t  -webkit-transform: translate3d(0,0,0);\n\t\t\t  -moz-transform: translate3d(0,0,0);\n\t\t\t  -ms-transform: translate3d(0,0,0);\n\t\t\t  -o-transform: translate3d(0,0,0);\n\t\t\t  transform: translate3d(0,0,0);\n\t\t\ta {\n\t\t\t\tdisplay: block;\n\t\t\t\theight: 84px;\n\t\t\t\twidth: 90%;\n\t\t\t\tright: 10%;\n\t\t\t\tposition: relative;\n\t\t\t\tbottom: -6px;\n\t             -webkit-transform: translateZ(0);\n\n\t\t\t\t@include transition(all 0.2s ease);\n\n\t\t\t\t@include breakpoint(mobile) {\n\t\t\t\t\t@include transition(0);\n\t\t\t\t}\n\n\t\t\t\t@include ipad(landscape) {\n\t\t\t\t\theight: 99px;\n\t\t\t\t\twidth: 115%;\n\t\t\t\t\tright: 12%;\n\t\t\t\t\tposition: relative;\n\t\t\t\t\tbottom: 0px;\n\t\t\t\t}\n\t\t\t}\n\n\t\t}\n\n\t\t.logo_img {\n\t\t\tmax-height: 105px;\n\t\t\theight: 105px;\n\n\t\t\t.lt-ie9 & {\n\t\t\t\twidth: 85%;\n\t\t\t}\n\t\t}\n\t}\n\n\t&.cobrands {\n\n\t\t.header {\n\n\t\t\t.logo {\n\t\t\t\tpadding-right: 180px;\n\t\t\t\tpadding-bottom: 0;\n\t\t\t}\n\t\t}\n\t}\n\n\t.nav-main {\n\n\n\t\t.menu {\n\t\t\tline-height: $small_menu_height;\n\t\t\tmin-height: $small_menu_height;\n\n\t\t\t> ul {\n\t\t\t\tdisplay: block;\n\t\t\t\twhite-space: nowrap;\n\n\t\t\t\t.lt-ie9 & {\n\n\t\t\t\t\t&:after {\n\t\t\t\t\t\tclear: both;\n\t\t\t\t\t\tcontent: '';\n\t\t\t\t\t\tdisplay: table;\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\t> li {\n\t\t\t\t\t@include inline-block(top);\n\t\t\t\t\twhite-space: normal;\n\t\t\t\t\twidth: auto;\n\n\t\t\t\t\t.lt-ie9 & { \n\t\t\t\t\t\tfloat: left;\n\t\t\t\t\t}\n\n\t\t\t\t\t&:hover {\n\t\t\t\t\t\tcolor:$blue-hover;\n\t\t\t\t\t\t> .dropdown {\n\t\t\t\t\t\t\tmargin-top: $small_menu_height;\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\t> .dropdown + a:hover,\n\t\t\t\t\t\t&:hover > .dropdown + a {\n\t\t\t\t\t\t\tbackground-color: #000;\n\n\t\t\t\t\t\t\t&:before {\n\t\t\t\t\t\t\t\tdisplay: none;\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\t&:after {\n\t\t\t\t\t\t\t\tborder-top-color: #000;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\n\t\t\t\t\t> a {\n\t\t\t\t\t\tfont-size: 11px;\n\t\t\t\t\t\tpadding: 0 20px;\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\t> .active {\n\n\t\t\t\t\ta {\n\n\t\t\t\t\t\t&:before {\n\t\t\t\t\t\t\tdisplay: none;\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\n\t\t\t\t.dropdown {\n\n\t\t\t\t\t+ a {\n\t\t\t\t\t\tpadding-right: 27px;\n\t\t\t\t\t\tposition: relative;\n\n\t\t\t\t\t\t&:before,\n\t\t\t\t\t\t&:after {\n\t\t\t\t\t\t\t$width: 4px;\n\n\t\t\t\t\t\t\tborder: {\n\t\t\t\t\t\t\t\tcolor: transparent;\n\t\t\t\t\t\t\t\tstyle: solid;\n\t\t\t\t\t\t\t\twidth: 5px $width 0 $width;\n\t\t\t\t\t\t\t};\n\t\t\t\t\t\t\tcontent: '';\n\t\t\t\t\t\t\tdisplay: block;\n\t\t\t\t\t\t\theight: 0;\n\t\t\t\t\t\t\tleft: auto;\n\t\t\t\t\t\t\tmargin: 0;\n\t\t\t\t\t\t\tposition: absolute;\n\t\t\t\t\t\t\tright: 15px;\n\t\t\t\t\t\t\ttop: 10px;\n\t\t\t\t\t\t\twidth: #{$width*2};\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\t&:before {\n\t\t\t\t\t\t\tborder-top-color: $black;\n\t\t\t\t\t\t\tmargin-top: 1px;\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\t&:after {\n\t\t\t\t\t\t\tborder-top-color: $light-gray;\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t}\n}",
+			"file": "css/sass/stylesheets/layout/_header.scss",
+			"file_size": 19143,
+			"file_write_time": 131248463181980008,
+			"settings":
+			{
+				"buffer_size": 18843,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 507,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/sass/stylesheets/base/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_navigation.scss",
+			"settings":
+			{
+				"buffer_size": 11526,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 2203,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sass/stylesheets/abstracts/_mixins.scss",
+			"settings":
+			{
+				"buffer_size": 6630,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_header.scss",
+			"settings":
+			{
+				"buffer_size": 7396,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "search-results.php",
+			"settings":
+			{
+				"buffer_size": 4419,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 185.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"gr",
+				"Preferences: Grunt - Settings – Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/css",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/css/sass",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/css/sass/stylesheets",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/css/sass/stylesheets/abstracts",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/css/sass/stylesheets/base",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/css/sass/stylesheets/components",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/css/sass/stylesheets/fonts",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/css/sass/stylesheets/layout"
+	],
+	"file_history":
+	[
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/styles.scss",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_mixins.scss",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_footer.scss",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_hacks.scss",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/css/sass/stylesheets/abstracts/_mixins.scss",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_fonts.scss",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_svg.scss",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_general.scss",
+		"/C/Users/fullstack/Downloads/annotations.tsv",
+		"/C/Users/fullstack/Downloads/cse (1).xml",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/js/app.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/7zOBE65.tmp/index.php",
+		"/C/Users/fullstack/Desktop/sitemap.xml",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/css/scrolling-nav.css",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev/gulpfile.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/templatedata/TrueCredit/RawContent/data/SmartMove-D/faq-content",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/js/core.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/teamsite.css",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/js/page/_page.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/assets/js/layout.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/assets/js/_page.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/assets/js/_page.min.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/assets/css/sass/_blog.scss",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/styles.css",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/gulpfile.js",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev-master/index.php",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev-master/search-results.php",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev-master/web.config",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_faq-dev-A-lil-better.zip/faq-dev-A-lil-better/js/app.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/templatedata/TrueCredit/RawContent/data/SmartMove-D/template-header",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_base.scss",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/js/vue/dist/loader-example.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/3-ways-check-applicant-credit.page",
+		"/C/www/wp-content/themes/twentyfourteen/functions.php",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_Theming-with-WP-REST-API-13 (1).zip/Theming-with-WP-REST-API-13/js/app.js",
+		"/C/devtest/wp-rest-newspaper-master/Gulpfile.js",
+		"/C/Users/fullstack/Documents/My Web Sites/faq-dev-master/js/app.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_redux-crud-master.zip/redux-crud-master/README.md",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_blog.scss",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/2016-state-of-rental-market-infographic.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/5-biggest-landlord-mistakes-kill-profit.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/what-means-conduct-tenant-criminal-background-check.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/7-tenant-screening-warning-signs-not-obvious.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/js/app.vue",
+		"/C/Users/fullstack/Downloads/ustwo.com-frontend-master/ustwo.com-frontend-master/src/app/flux/index.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/js/vue/dist/app.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_ustwo.com-frontend-master.zip/ustwo.com-frontend-master/README.md",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_ustwo.com-frontend-master.zip/ustwo.com-frontend-master/src/server/data-loader.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_ustwo.com-frontend-master.zip/ustwo.com-frontend-master/src/app/index.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_wp-rest-newspaper-master.zip/wp-rest-newspaper-master/assets/js/app.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_ustwo.com-frontend-master.zip/ustwo.com-frontend-master/src/server/routes.sandbox.js",
+		"/C/Users/fullstack/Downloads/ustwo.com-frontend-master/ustwo.com-frontend-master/src/app/index.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_ustwo.com-frontend-master.zip/ustwo.com-frontend-master/src/server/routes.js",
+		"/C/Users/fullstack/Downloads/ustwo.com-frontend-master/ustwo.com-frontend-master/src/app/flux/nulls.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/js/page/_page.min.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_Theming-with-WP-REST-API-13.zip/Theming-with-WP-REST-API-13/js/vue-resource.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_Theming-with-WP-REST-API-13.zip/Theming-with-WP-REST-API-13/header.php",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp2_vue-loader-9.0.0.zip/vue-loader-9.0.0/index.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp2_vue-loader-9.0.0.zip/vue-loader-9.0.0/lib/loader.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/js/vue/app.vue",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_gulp-vue-module-master.zip/gulp-vue-module-master/index.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/dist/app.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_gulp-vue-module-master.zip/gulp-vue-module-master/tests/Gulpfile.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_gulp-vue-module-master.zip/gulp-vue-module-master/tests/package.json",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_gulp-vue-module-master.zip/gulp-vue-module-master/tests/dist/template-include.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_gulp-vue-module-master.zip/gulp-vue-module-master/tests/dist/sass.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_vue-loader-9.0.0.zip/vue-loader-9.0.0/lib/loader.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_vue-loader-9.0.0.zip/vue-loader-9.0.0/test/test.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_vue-loader-9.0.0.zip/vue-loader-9.0.0/test/fixtures/inject.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_vue-loader-9.0.0.zip/vue-loader-9.0.0/test/fixtures/script-import.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/7zOFB22.tmp/blog-styles.scss",
+		"/C/Users/fullstack/AppData/Local/Temp/1/7zO11AF.tmp/_blog.scss",
+		"/C/devtest/wp-rest-newspaper-master/assets/js/typeahead.js",
+		"/C/devtest/wp-rest-newspaper-master/index.html",
+		"/C/devtest/wp-rest-newspaper-master/assets/js/html2canvas.js",
+		"/C/devtest/wp-rest-newspaper-master/assets/js/script.min.js",
+		"/C/www/wp-config.php",
+		"/C/www/wp-settings.php",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_ustwo.com-frontend-master.zip/ustwo.com-frontend-master/src/app/components/page-container/index.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_ustwo.com-frontend-master.zip/ustwo.com-frontend-master/src/app/components/page-loader/index.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_ustwo.com-frontend-master.zip/ustwo.com-frontend-master/src/app/components/blog-categories/_index.scss",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/login/js/page/_page.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/login/js/page/landlord_new_application.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_ustwo.com-frontend-master.zip/ustwo.com-frontend-master/src/app/components/blog-categories/index.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_ustwo.com-frontend-master.zip/ustwo.com-frontend-master/src/app/components/category-tag/index.js",
+		"/C/Users/fullstack/AppData/Local/Temp/1/Temp1_ustwo.com-frontend-master.zip/ustwo.com-frontend-master/src/app/components/search/index.js",
+		"/C/devtest/wp-rest-newspaper-master/assets/js/app.js",
+		"/C/Users/fullstack/Downloads/wp-rest-newspaper-master/wp-rest-newspaper-master/assets/js/app.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/assets/js/fixed-nav-logic.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/js/utils/helpers.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/assets/js/layout.min.js",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/assets/config.rb",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/assets/css/sass/blog-styles.scss",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/4-reasons-decline-tenant-with-good-credit.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/4-most-common-types-landlords-infographic.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/4-ways-landlords-streamline-activities-mobile.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/5-most-common-types-renters-infographic.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/7-tips-find-and-rent-your-first-rental-property.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/7-warning-signs-tenant-screening.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/9-must-know-tips-new-landlords.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/beginner-guide-owning-rental-property-infographic.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/how-evaluate-tenant-with-bad-credit.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/how-screen-tenant-infographic.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/how-to-avoid-renter-payment-problems.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/how-to-find-good-tenants.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/how-to-read-credit-report-for-landlords.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/hud-guidance-criminal-background-screening.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/landlord-credit-score-knowledge.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/landlord-tips-renter-perspective.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/landlord-top-tenant-concern-study.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/landlords-check-applicant-eviction-history.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/mistakes-new-landlords-make-picking-tenants.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/online-rent-pay-convenience-landlords.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/renter-credit-risk-improves-as-rental-prices-rise-study.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/residentscore-tailored-tenant-screening.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/smartmove-website-improvements.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/tenant-screening-quick-guide.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/todays-landlord-characteristics-infographic.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/todays-renter-characteristics-infographic.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/top-11-benefits-online-tenant-screening.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/top-4-screening-factors-revealed-by-landlords.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/top-5-reasons-landlords-should-screen-tenants.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/top-questions-ask-potential-tenants.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/top-seven-ways-smartmove-offers-convenience-for-property-owners.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/true-cost-eviction.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/blog/what-tenants-look-for-rental-property.page",
+		"/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/templatedata/TrueCredit/RawContent/data/SmartMove-D/BlogContent/blog-post-scripts"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 153.0,
+		"where_history":
+		[
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\blog",
+			"<current file>",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\js,E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\login\\js",
+			"<current file>",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\blog",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\blog,*.page",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\blog",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\,E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\blog",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\css",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D,E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\css",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\,E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\css",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMov\\css",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\login\\css",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\login\\css\\sass",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\templatedata",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT,E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\css",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT,E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\,-*.node_modules",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT,E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT,E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\blog",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT,E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\css,E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\css\\sass",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT,E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\css",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT",
+			"",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT",
+			"",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\WEB-INF",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\",
+			"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\sites\\SmartMove\\login\\css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"body-font-weight",
+			" transparent",
+			"@include transparent",
+			"@include trans",
+			"@include transparent",
+			"@include ",
+			"background",
+			"transition",
+			"user-select",
+			"user-select(none); ",
+			"user-select",
+			"@include userselect",
+			"about",
+			"quick-links",
+			"semiBold",
+			"text-font-stack",
+			"$text-font-stack",
+			"img.secondary-img",
+			"style.css",
+			"CSS",
+			"CSS Files",
+			"bootstrap.min.css",
+			"bootstrap",
+			"style",
+			"/img/blog/",
+			"gas",
+			"GTM-TZZ53D",
+			"blog",
+			".9",
+			"soical-top ",
+			"blog-section",
+			"col-md-9",
+			"col-9",
+			"h4",
+			"ul",
+			"@include",
+			".article-item",
+			".blog-section .article-item",
+			"postList",
+			"App",
+			"postList",
+			"showFilter",
+			"root",
+			"getThePost",
+			"singlePost",
+			"post-list-template",
+			"post-list",
+			" data",
+			"login-wrapper",
+			"vue-app",
+			"vue",
+			"addtoany",
+			"require",
+			"vue",
+			"post-aut",
+			".blog",
+			"social-bottom",
+			"blog-section",
+			"ul",
+			"h4",
+			"html.js",
+			".col-md-9",
+			"$utils$$objectOrFunction",
+			"gas.push",
+			"analytics",
+			"gaq",
+			"anal",
+			"gaq",
+			"anal",
+			" Gaq",
+			"anal",
+			"Gaq",
+			"GaqAppSent",
+			"gaq",
+			"anal",
+			"GaqActCreate",
+			"$analytics",
+			"login",
+			"/img/blog/",
+			"3-ways-image-02.jpeg",
+			"caution.jpg",
+			"/blog/assets/img",
+			"/img/blog/",
+			"/blog/assets/img",
+			"/blog/assets",
+			"/blog/assets/img",
+			"/img/blog/",
+			"img",
+			"black-drop-arrow",
+			"set",
+			"blog",
+			"addtoany",
+			"add",
+			"a2a_config",
+			"    a2a_config.templates",
+			"/img/blog",
+			"loaded",
+			"responsiveImage",
+			"responsive",
+			"page",
+			"'page'",
+			"page",
+			"extensions",
+			"loader",
+			"page",
+			"AppView",
+			"React",
+			"R",
+			"footer",
+			"post-content",
+			"slideTextContainer",
+			"ul",
+			"Who Pays for SmartMove",
+			"Who Pays for SmartMove?",
+			"Real-Estate-Agent.jpg",
+			"pricing-box",
+			".pricing-box",
+			"pricing-box",
+			".pricing-box",
+			"bCopy",
+			".bCopy",
+			"bCopy",
+			".bCopy",
+			"module",
+			".blue-highlight ",
+			".land-rent",
+			"Hero_Images_resident_score.jpg",
+			"key-points"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/blog/assets/img/",
+			"/blog/assets/img",
+			"",
+			"renter-credit-risk-improves-as-rental-prices-rise-study.page",
+			"[$PAGE_LINK[blog/",
+			"$PAGE_SCOPE[baseURL]blog/",
+			"blog/",
+			"%82",
+			"<div class=\"container primary\">\n    <section class=\"main highlight\" role=\"main\">\n        <div class=\"row\">\n            <div class=\"col-sm-3 col-md-3\">\n                <!-- Start Side Menu -->\n<!--                 <nav>\n                    <div id=\"static-menu\">\n                        <h3 class=\"sidebar-title\">Tenant Screening</h3>\n                        <ul class=\"sidebar-menu\" data-parent=\"landlords\">\n                           <li class=\"icon\">\n                                <a href=\"$PAGE_SCOPE[baseURL]landlord-credit-check.page\">SmartMove Benefits</a>\n                                <ul>\n                                    <li><a href=\"$PAGE_SCOPE[baseURL]landlord-credit-check.page\">for Landlords</a></li>\n                                    <li><a href=\"$PAGE_SCOPE[baseURL]resident-screening.page\">for Property Managers</a></li>\n                                    <li><a href=\"$PAGE_SCOPE[baseURL]credit-check-on-tenants.page\">for Real Estate Agents</a></li>\n                                </ul>\n                            </li>\n                            <li><a href=\"$PAGE_SCOPE[baseURL]credit-check-for-landlords.page\">How It Works</a></li>\n                            <li class=\"icon active\">\n                                <a href=\"$PAGE_SCOPE[baseURL]tenant-credit-checks.page\">What You Get</a>\n                                <ul>\n                                    <li><a href=\"$PAGE_SCOPE[baseURL]landlord-credit-check-service.page\">Resident Score</a></li>\n                                    <li><a href=\"$PAGE_SCOPE[baseURL]credit-check-tenant.page\">Credit Report</a></li>\n                                    <li><a href=\"$PAGE_SCOPE[baseURL]tenant-screening-report.page\">Criminal Report</a></li>\n                                    <li class=\"active\"><a href=\"$PAGE_SCOPE[baseURL]eviction-check.page\">Eviction Report</a></li>\n                                    <li><a href=\"$PAGE_SCOPE[baseURL]tenant-verification-service.page\">Leasing Recommendation</a></li>\n                                </ul>\n                            </li>\n                            <li><a href=\"$PAGE_SCOPE[baseURL]landlord-frequently-asked-questions.page\">FAQs</a></li>\n                        </ul> <!-- // side-menu -->\n                </nav> -->\n                <!-- // End Side Menu -->\n            </div> <!-- /col-md-3 -->\n            <div class=\"col-sm-9 col-md-9\">\n                <figure class=\"heroContainer responsive\" data-media=\"$URL_PREFIX/sites/SmartMove/img/hero/Hero_Images_eviction_report.jpg\">\n                    <noscript><img src=\"$URL_PREFIX/sites/SmartMove/img/hero/Hero_Images_eviction_report.jpg\" alt=\"\" class=\"hero-image\"></noscript>\n                    <script id=\"HeroImageTemplate\" type=\"text/x-handlebars-template\">\n                    {{#with figcaption}}<figcaption class=\"textMaster\">\n                        <div class=\"heroTextContainer{{#if class}} {{class}}{{/if}}\"><h2>{{{header}}}</h2><p>{{{caption}}}</p></div>\n                        {{#with button}}<a class=\"yellowStrip btn btn-orange btn-lg\"{{#if href}} href=\"{{href}}\"{{/if}}>{{{text}}}</a>{{/with}}\n                    </figcaption>{{/with}}\n                    </script>\n                    <script>\n                        define('hero_image', [], {});\n                    </script>\n                </figure> <!-- /heroContainer -->\n                <div class=\"interior\">\n                    <div class=\"row\">\n                        <div class=\"col-sm-7 col-md-7\">\n                            <h1 class=\"emphasisO\">What aren't your rental applicants telling you? Find out with a SmartMove Eviction Check</h1>\n                            <h4 class=\"spaced\">Is there anything more painful than evicting a tenant? Did you know that on average:</h4>\n                            <ul>\n                                <li>It costs $3500* to evict a tenant </li>\n                                <li>It takes 3-4 weeks* to evict a tenant</li>\n                            </ul>\n                            <p><i>*Based on 2013 TransUnion survey data</i><br />\nIn some states these numbers are even worse.  As a property owner or <a href=\"$PAGE_SCOPE[baseURL]resident-screening.page\">manager</a>, that's not a risk you want to take.\nSmartMove's newest feature:  the eviction report, can help you predict future behavior by knowing your tenant's past history. <br />\nTransUnion's eviction check capabilities aren't the usual eviction reports you buy online - we offer  comprehensive and more accurately matched search results :</p>\n                            <ul>\n                                <li>Ability to more accurately match your applicant to an eviction record, even with limited information.  We do this by using our vast <a href=\"$PAGE_SCOPE[baseURL]credit-check-tenant.page\">credit</a>, personal, and address history databases to help figure out who is who</li>\n                                <li>One of the largest evictions databases subject to the FCRA with 25+ million eviction records, covering all 50 states plus Washington D.C.</li>\n                            </ul>\n                            <p>The equation is simple:  More coverage + More accurate matching = Better information delivered to you fast.  And with better information, you can make better decisions to keep your eviction risk low.</p>\n                            <h4 class=\"spaced\">Eviction Reports include court records on every file<br />\nTransUnion eviction reports come from a variety of sources including public court records, and are enhanced with data reported directly to TransUnion.  The reports include:\n</h4>\n                            <ul>\n                                <li>Tenant judgment for possession and money</li>\n                                <li>Unlawful detainers</li>\n                                <li>Tenant judgments for rent</li>\n                                <li>Failure to pay rent</li>\n                                <li>Writs and warrants of eviction</li>\n\n                            </ul>\n                            <p><img src=\"$URL_PREFIX/sites/SmartMove/img/screens/SM_thumb_eviction.jpg\" alt=\"\"></p>\n                        </div> <!-- /col-md-7 -->\n                        <div class=\"col-sm-5 col-md-5\">\n                            <div class=\"key-points\">\n                                <h2>Key Points</h2>\n                                <ul class=\"icon-ul\">\n                                    <li>Quick, up-to-date results</li>\n                                    <li>Helps protect your investment</li>\n                                    <li>Taps into hundreds of millions of records</li>\n                                </ul>\n                            </div> <!-- key-points -->\n                            <!-- <div class=\"sidebar-call-action spaced\">\n                                <h3 class=\"emphasisB short\">Check out the style guide</h3>\n                                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&rsquo;t anything embarrassing hidden in the middle of text.</p>\n                                <a href=\"/template.html\" class=\"btn btn-orange uppercase\">Learn More</a>\n                            </div> /sidebar-call-action -->\n                        </div> <!-- /col-md-5 -->\n                    </div> <!-- /row -->\n                </div> <!-- /interior -->\n            </div> <!-- /col-md-9 -->\n        </div> <!-- /row -->\n    </section> <!-- /section module -->\n\n    <!-- <section class=\"module call-action border-top\">\n        <div class=\"row\">\n            <div class=\"col-sm-7 col-md-7\">\n                <h3 class=\"short\">This can be used for a call to action.</h3>\n                <p class=\"shorter\">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&rsquo;t anything embarrassing hidden in the middle of text.</p>\n            </div> /col-md-7\n            <div class=\"col-sm-3 col-md-3 col-sm-offset-2 col-md-offset-2\">\n                <a href=\"/template.html\" class=\"btn btn-default btn-lg add-top\">View Style Guide</a>\n            </div> /col-md-3\n        </div> /row\n    </section> /section module -->\n\n     <section class=\"module less-spaced\">\n        <div class=\"row\">\n            <div class=\"col-md-9 col-md-offset-3\">\n                <h4 class=\"emphasisP\">RESIDENT SCREENING IS EASY - WITH A CLEAR, CUSTOMIZED TRANSUNION SMARTMOVE LEASING RECOMMENDATION</h4>\n                <p>Other background checks provide all kinds of background data packages, but don't tell you what you really need, or how to act on your results.\n\nInstead, TransUnion SmartMove provides a reliable, comprehensive and customized recommendation based on a landlord's own property criteria.</p>\n\n                <h4 class=\"emphasisG spaced\">IT'S MORE THAN A TRADITIONAL TENANT SCREENING REPORT. SMARTMOVE OFFERS A RECOMMENDATION MADE JUST FOR YOU</h4>\n                <p class=\"shorter\">When entering information for a property in your SmartMove account, you're prompted to tell us how strict or how lenient you want the screening process to be, based on the type of property you're screening for. After running an applicant's credit background check, SmartMove provides one of four recommendations, based on these customized criteria: Accept, Conditional Accept, Low Accept, or Decline.</p>\n            </div> \n        </div> \n    </section> \n\n</div> <!-- /container -->",
+			"e",
+			"www.",
+			"",
+			".page",
+			".page\"",
+			"$PAGE_SCOPE[baseURL]",
+			"..",
+			".page\"",
+			"$PAGE_SCOPE[baseURL]",
+			".page\"",
+			"$PAGE_SCOPE[baseURL]",
+			"]",
+			"[baseURL]",
+			".page\"",
+			"$PAGE_SCOPE[requestHost]/",
+			".page\"",
+			"\".page",
+			".page",
+			"$PAGE_SCOPE[requestHost]/SmartMove/",
+			"A great way to find out what you don&rsquo;t know"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/sass/stylesheets/base/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1606,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/sass/stylesheets/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/sass/stylesheets/themes/_default.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1123,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20850,
+								20820
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4827.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/sass/stylesheets/base/_fonts.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4064,
+								4064
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/sass/stylesheets/abstracts/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 918.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/sass/stylesheets/layout/_header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18843,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16035,
+								16035
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 17187.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "css/sass/stylesheets/base/_typography.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_navigation.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11414,
+								11414
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								815
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "css/sass/stylesheets/abstracts/_mixins.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/E/Interwoven/LiveSiteDisplayServices/runtime/ROOT/sites/SmartMove/css/sass/_header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								7396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7344.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "search-results.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 91.0
+	},
+	"output.find_results":
+	{
+		"height": 27.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "faq-dev.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"footer",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\template-footer"
+			],
+			[
+				"header",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\template-header"
+			],
+			[
+				"blog",
+				"sites\\SmartMove\\css\\.sass-cache\\eb26eefaf625ed80a7818cb4b07d666860fd3a6d\\_blog.scssc"
+			],
+			[
+				"",
+				"sites\\SmartMove\\login\\js\\page\\applications.js"
+			],
+			[
+				"das",
+				"sites\\SmartMove\\login\\js\\page\\dashboard.js"
+			],
+			[
+				"blo",
+				"sites\\SmartMove\\css\\sass\\blog.scss"
+			],
+			[
+				"bl",
+				"sites\\SmartMove\\css\\.sass-cache\\eb26eefaf625ed80a7818cb4b07d666860fd3a6d\\blog.scssc"
+			],
+			[
+				"subsc",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\BlogContent\\subscribe-form"
+			],
+			[
+				"applications",
+				"sites\\SmartMove\\login\\js\\page\\applications.js"
+			],
+			[
+				"landlord_my",
+				"sites\\SmartMove\\login\\js\\page\\landlord_my_applications.js"
+			],
+			[
+				"template-",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\template-jquery-script"
+			],
+			[
+				"template-jq",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\template-jquery-script"
+			],
+			[
+				"sub",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\BlogContent\\subscribe-form"
+			],
+			[
+				"subscr",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\BlogContent\\subscribe-form"
+			],
+			[
+				"template-j",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\template-jquery-script"
+			],
+			[
+				"static",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\static-header"
+			],
+			[
+				"head",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\static-header"
+			],
+			[
+				"15",
+				"sites\\SmartMove\\15percentoff.page"
+			],
+			[
+				"header-n",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\header-no-nav"
+			],
+			[
+				"landing",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\landing-page-brand"
+			],
+			[
+				"brandin",
+				"sites\\SmartMove\\landing-page-test\\branding.page"
+			],
+			[
+				"html-add_property",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-add_property"
+			],
+			[
+				"add",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\RedirectEngineTest\\HTML-addapplicant"
+			],
+			[
+				"template",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\template-header"
+			],
+			[
+				"12",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\BlogContent\\SevenWays_1-20-16"
+			],
+			[
+				"top-seven-ways-smartmove-offers-convenience-for-property-owners.page",
+				"sites\\SmartMove\\top-seven-ways-smartmove-offers-convenience-for-property-owners.page"
+			],
+			[
+				"11",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\BlogContent\\SevenWays_1-20-16"
+			],
+			[
+				"properties",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\handlebars\\properties"
+			],
+			[
+				"landlord_my_applications",
+				"sites\\SmartMove\\login\\js\\page\\landlord_my_applications.js"
+			],
+			[
+				"helper",
+				"sites\\SmartMove\\js\\utils\\helpers.js"
+			],
+			[
+				"html-hom",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-home"
+			],
+			[
+				"html-landlord_prop",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-landlord_property_details"
+			],
+			[
+				"updateapplication_controllerhtml",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\updatelandlordapplicationpayment_controllerhtml"
+			],
+			[
+				"dash",
+				"sites\\SmartMove\\login\\dashboard.page"
+			],
+			[
+				"home",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-home"
+			],
+			[
+				"my",
+				"sites\\SmartMove\\login\\my_properties.page"
+			],
+			[
+				"crimin",
+				"sites\\SmartMove\\login\\criminal_report.page"
+			],
+			[
+				"crimi",
+				"sites\\SmartMove\\login\\criminal-report\\criminal-report.html"
+			],
+			[
+				"html-head",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-header-credit-report"
+			],
+			[
+				"html-header",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-header-credit-report"
+			],
+			[
+				"cre",
+				"sites\\SmartMove\\login\\credit_report.page"
+			],
+			[
+				"report-hra",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\reports-header"
+			],
+			[
+				"report-h",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\report-header-credit"
+			],
+			[
+				"cred",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-credit-report"
+			],
+			[
+				"report",
+				"sites\\SmartMove\\login\\credit_report.page"
+			],
+			[
+				"sm-",
+				"WEB-INF\\classes\\com\\tui\\xsl\\runtime\\sm-div-layout.page.xsl"
+			],
+			[
+				"sm-di",
+				"WEB-INF\\classes\\com\\tui\\xsl\\runtime\\sm-div-layout.page.xsl"
+			],
+			[
+				"fq",
+				"sites\\SmartMove\\faqs.page"
+			],
+			[
+				"renter-",
+				"sites\\SmartMove\\renter-frequently-asked-Questions.page"
+			],
+			[
+				"renter-fa",
+				"sites\\SmartMove\\renter-frequently-asked-Questions.page"
+			],
+			[
+				"html-su",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-support-Faqs"
+			],
+			[
+				"faqs",
+				"sites\\SmartMove\\support\\faqs.page"
+			],
+			[
+				"html-l",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-lanlord_signup"
+			],
+			[
+				"eviction",
+				"sites\\SmartMove\\login\\js\\page\\eviction_summary.js"
+			],
+			[
+				"html-landlord",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-landlord-signup"
+			],
+			[
+				"html",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-main-navigation"
+			],
+			[
+				"nav",
+				"sites\\SmartMove\\css\\sass\\_navigation.scss"
+			],
+			[
+				"links",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-quick-links"
+			],
+			[
+				"main-",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-main-navigation"
+			],
+			[
+				"html-lanlord_signup",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-lanlord_signup"
+			],
+			[
+				"html-land",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-landlord-signup"
+			],
+			[
+				"landlords",
+				"sites\\SmartMove\\login\\landlord_signup.page"
+			],
+			[
+				"html-criminal",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-criminal-report"
+			],
+			[
+				"criminal-su",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-criminal-report-summary"
+			],
+			[
+				"html-crimin",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-criminal-report"
+			],
+			[
+				"html-lo",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-login"
+			],
+			[
+				"landlord_evic",
+				"sites\\SmartMove\\login\\landlord_eviction_report.page"
+			],
+			[
+				"htmleviction",
+				"stage\\templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-evictions"
+			],
+			[
+				"login",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-login"
+			],
+			[
+				"ht",
+				"E:\\Interwoven\\LiveSiteDisplayServices\\runtime\\ROOT\\templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-password-recovery"
+			],
+			[
+				"html-contact",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-support-ContactUs"
+			],
+			[
+				"sitemap",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-sitemap"
+			],
+			[
+				"ev",
+				"sites\\SmartMove\\eviction-check.page"
+			],
+			[
+				"html-ev",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-evictions"
+			],
+			[
+				"evi",
+				"sites\\SmartMove\\eviction-check.page"
+			],
+			[
+				"passw",
+				"sites\\SmartMove\\password_recovery_success.page"
+			],
+			[
+				"html-p",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-password-recovery-success"
+			],
+			[
+				"pass",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-password-recovery"
+			],
+			[
+				"reco",
+				"sites\\SmartMove\\password_recovery.page"
+			],
+			[
+				"temp",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\template-header"
+			],
+			[
+				"recover",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-password-recovery"
+			],
+			[
+				"html-form",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-form-handler"
+			],
+			[
+				"html-recover",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-password-recovery"
+			],
+			[
+				"html-passw",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-password-recovery-success"
+			],
+			[
+				"password",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-password-recovery"
+			],
+			[
+				"html-pass",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-password-recovery"
+			],
+			[
+				"htmlapplicaion",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-landlord-new-application"
+			],
+			[
+				"applic",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\handlebars\\applications"
+			],
+			[
+				"applica",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\handlebars\\applications"
+			],
+			[
+				"html-detail",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-detail-criminal-report"
+			],
+			[
+				"mang",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-landlord_manage_leasing_agents"
+			],
+			[
+				"landlord-frequently-asked-questions.page",
+				"sites\\SmartMove\\Landlord-Credit-Check\\Landlord-Frequently-Asked-Questions.page"
+			],
+			[
+				"html-site",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-sitemap"
+			],
+			[
+				"fo",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\template-footer"
+			],
+			[
+				"html-foo",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\login\\HTML-footer"
+			],
+			[
+				"hea",
+				"templatedata\\VulcanWorkshop\\NavLinks\\data\\TrueIdentity\\HeaderLinks"
+			],
+			[
+				"html-home",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-home"
+			],
+			[
+				"html-footer",
+				"templatedata\\TrueCredit\\RawContent\\data\\SmartMove-D\\HTML-footer-report"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 486.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

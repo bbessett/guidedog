@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<title>Instant Google Custom Search Engine (CSE)</title> 
+<meta charset="utf-8"> 
+<meta name="description" content="Google Custom Instant"> 
+<link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet" type="text/css"> 
+<link rel="stylesheet" href="html5reset.css" type="text/css" media="screen"> 
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+ 
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> 
+ 
+</head> 
+<body> 
+<header> 
+  <h1>Instant Google Custom Search Engine (CSE)<span style="float:right; vertical-align:middle;font-family:arial,sans-serif;font-size:11px;" class="gBrandingText">powered by<img style="padding-left:1px;vertical-align:middle;" src="http://www.google.com/uds/css/small-logo.png"></span> </h1> 
+</header> 
+<div class="gsc-control-cse gs-no-results-result" style="padding-top:10px;padding-bottom:0px;width:94%;line-height:1.5em;text-align:center;"> 
+  <div class="gs-snippet">This is an example Instant version of a <a href="http://www.google.com/cse/">Google Custom Search Engine (CSE)</a>. You can instantise your own CSE by adding your CSE ID to this url e.g. <a href="http://mashe.hawksey.info/search/?cx=005489088245143811310:cwv9ov3ywy0">http://mashe.hawksey.info/search/?cx=012010416210434366262:-vttp31xsd0</a>. <br/>This is an example Instant CSE for <a href="http://mashe.hawksey.info/">JISC RSC MASHe</a>.</div> 
+</div> 
+<div id="cse" style="width: 100%;">Loading</div> 
+<script src="http://www.google.com/jsapi" type="text/javascript"></script> 
+                        <script type="text/javascript"> 
+                          google.load('search', '1', {language : 'en'});
+                          google.setOnLoadCallback(function() {
+						  var cb = function(){pageTracker._trackPageview(document.location.pathname + "?q=" + document.getElementsByClassName("input-gsc")[1].value);};
+                            var customSearchControl = new google.search.CustomSearchControl('005489088245143811310:cwv9ov3ywy0');
+                            customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+                            customSearchControl.setSearchCompleteCallback(this, cb);      
+                            customSearchControl.draw('cse');
+													  }, true);
+                          </script> 
+ 
+<link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" /> 
+<section id="note"> 
+  <div align="center"><a href="http://mashe.hawksey.info/2010/09/instant-cse/">Read how this was done here</a></div> 
+</section> 
+<footer>Created by <a href="http://twitter.com/mhawksey">mhawksey</a> using <a href="http://www.tamdenholm.com/">Tam Denholm's</a> - Idea <del>inspired</del> <ins>stolen</ins> from <a href="http://hartlabs.net/">Michael Hart</a> who <del>got inspired</del> <ins>stole from</ins> <a href="http://www.feross.org/">Feross Aboukhadijeh</a> who <del>got inspired</del> <ins>stole from</ins> Google.</footer> 
+<script type="text/javascript"> 
+// JavaScript Document
+// Modified from code by Tam Denholm at http://instantise.com/
+// Tam said: I'd like to apologise in advance for this code, its going to be quite shit mainly because
+// im a PHP dev and primarily stick to backend work, my JS isnt as good as my PHP.
+var AJAX_API_key = 'AIzaSyAWJygqwLqwP3nwbZkFYKMUFOcOely83OU';
+var CSE_ID ='005489088245143811310:cwv9ov3ywy0';
+$(document).ready(function(){
+    // onload
+    chg_iframe();
+});
+ 
+ 
+function urldecode(str){
+    return decodeURIComponent(str.replace(/\+/g, '%20'));
+}
+ 
+function searchComplete(message) {
+   alert(message);
+}
+ 
+function chg_iframe(){
+ 
+	$.get('searchbox.html', function(data) {
+		$('input.gsc-input').keyup(function(event){
+			$('.gsc-cursor-box').remove();
+			$('.gsc-webResult.gsc-result').remove();
+			$('.gsc-resultsbox-invisible').removeClass('gsc-resultsbox-invisible').addClass('gsc-resultsbox-visible').attr('style', 'visibility: visible;');
+			if ($('.gsc-results.gsc-webResult').attr('style', 'display: none;')){
+				$('.gsc-results.gsc-webResult').attr('style', 'display: block;');
+				
+			}
+ 
+ 
+			
+			$.ajax({
+				type: "GET",
+				url: 'http://ajax.googleapis.com/ajax/services/search/web?v=1.0&key='+AJAX_API_key+'&cx='+CSE_ID+'&q= '+$('input.gsc-input').val(),
+				dataType: "jsonp",
+				success: function(data){
+					//$('#main').append(data.responseData.results);
+					$.each(data.responseData.results, function(i, result){
+						$('.gsc-results.gsc-webResult').append('<div class="gsc-webResult gsc-result">             <div class="gs-webResult gs-result"><div class="gs-title"><a class="gs-title" href="'+result.url+'" onclick="javascript: pageTracker._trackPageview(\'#!/'+result.url+'\');">'+result.title+'</a></div><div class="gs-snippet">'+result.content+'</div> <div class="gs-visibleUrl gs-visibleUrl-short">'+result.visibleUrl+'</div></div></div>');
+						
+					});
+				}                 
+			});
+		});
+	});
+		
+}
+</script> 
+
+</body> 
+</html>

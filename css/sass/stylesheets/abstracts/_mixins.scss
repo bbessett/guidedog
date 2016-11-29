@@ -1,0 +1,224 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+} 
+@mixin user-select($value){-webkit-user-select: $value; -moz-user-select: $value; -ms-user-select: $value; -o-user-select: $value; user-select: $value; }
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+/// Make a context based selector a little more friendly
+/// @author Hugo Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+  #{$context} & {
+    @content;
+  }
+}
+
+
+
+@mixin opacity($opacity) {
+  @if $legacy-support-for-ie6 or $legacy-support-for-ie7 or $legacy-support-for-ie8 {
+    filter: unquote("alpha(opacity=#{round($opacity * 100)})");
+  }
+  opacity: $opacity;
+}
+@mixin tap-highlight-color() {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+}
+@mixin inline-block($alignment: $inline-block-alignment) {
+  display: inline-block;
+  @if $alignment and $alignment != none {
+    vertical-align: $alignment;
+  }
+}
+
+// Breakpoints
+@mixin breakpoint($point) {
+  @if $point == desktopfull {
+    @media (min-width: 1028px) { @content; }
+  }
+  @else if $point == desktop {
+    @media (min-width: 980px) { @content; }
+  }
+  @else if $point == tablet {
+    @media (max-width: 979px) { @content; }
+  }
+  @else if $point == mobile {
+    @media (max-width: 480px) { @content; }
+  }
+  @else if $point == 992 or $point == wide {
+    @media (min-width: 992px) { @content; }
+  }
+  @else if $point == narrow {
+    @media (max-width: 768px) { @content; }
+  }
+  @else if $point == 767 {
+    @media (max-width: 767px) { @content; }
+  }
+  @else if $point == medium {
+    @media (max-width: 991px) { @content; }
+  }
+  @else if $point == large_mobile {
+    @media (max-device-width: 1024px) { @content; }
+  }
+  @else if $point == 1197 {
+    @media (max-width: 1197px) { @content; }
+  }
+  @else if $point == retina1.5 {
+    @media (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5) { @content; }
+  }
+  @else {
+    @media (max-width: #{$point}px) { @content; }
+  }
+}
+
+
+
+// ---------------------------------------------------------------------------------------------------------------------
+// --- ipads (all) -----------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------
+
+@mixin ipad($orientation: all)
+{
+  $deviceMinWidth: 768px;
+  $deviceMaxWidth: 1024px;
+
+  @if $orientation == all
+  {
+    @media only screen and (min-device-width: $deviceMinWidth) and (max-device-width: $deviceMaxWidth)
+    {
+      @content;
+    }
+  }
+  @else
+  {
+    @media only screen and (min-device-width: $deviceMinWidth) and (max-device-width: $deviceMaxWidth)
+    and (orientation: #{$orientation})
+    {
+      @content;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// --- ipad-retina -----------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------
+
+@mixin ipad-retina($orientation: all)
+{
+  $deviceMinWidth: 768px;
+  $deviceMaxWidth: 1024px;
+  $devicePixelRatio: 2;
+
+  @if $orientation == all
+  {
+    @media only screen and (min-device-width: $deviceMinWidth) and (max-device-width: $deviceMaxWidth)
+    and (-webkit-device-pixel-ratio: $devicePixelRatio)
+    {
+      @content;
+    }
+  }
+  @else
+  {
+    @media only screen and (min-device-width: $deviceMinWidth) and (max-device-width: $deviceMaxWidth)
+    and (-webkit-device-pixel-ratio: $devicePixelRatio) and (orientation: #{$orientation})
+    {
+      @content;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+// --- iphone-5 --------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------
+
+@mixin iphone5($orientation: all)
+{
+  $deviceMinWidth: 320px;
+  $deviceMaxWidth: 568px;
+  $devicePixelRatio: 2;
+  $deviceAspectRatio: '40/71';
+
+  @if $orientation == all
+  {
+    @media only screen and (min-device-width: $deviceMinWidth) and (max-device-width: $deviceMaxWidth)
+    and (-webkit-device-pixel-ratio: $devicePixelRatio) and (device-aspect-ratio: $deviceAspectRatio)
+    {
+      @content;
+    }
+  }
+  @else
+  {
+    @media only screen and (min-device-width: $deviceMinWidth) and (max-device-width: $deviceMaxWidth)
+    and (-webkit-device-pixel-ratio: $devicePixelRatio) and (device-aspect-ratio: $deviceAspectRatio) and (orientation: #{$orientation})
+    {
+      @content;
+    }
+  }
+}
+
+@mixin font-awesome-icon {
+  font: {
+    family: FontAwesome;
+    style: normal;
+  }
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Border radius
+@mixin border-radius($radius: $default-border-radius, $vertical-radius: false) {
+  @if $vertical-radius {
+    // Webkit doesn't understand the official shorthand syntax for specifying
+    // a vertical radius unless so in case there's several we only take the first.
+    @include experimental(border-radius, first-value-of($radius) first-value-of($vertical-radius), not -moz, -webkit, not -o, not -ms, not -khtml, not official);
+    @include experimental("border-radius", $radius unquote("/") $vertical-radius, -moz, not -webkit, not -o, not -ms, -khtml, official);
+
+    @if $experimental-support-for-pie == true {
+      .csspie & { 
+        -pie-border-radius: first-value-of($radius);
+      }
+    }
+  }
+  @else {
+    @include experimental(border-radius, $radius);
+
+    @if $experimental-support-for-pie == true {
+      .csspie & {
+        -pie-border-radius: $radius;
+      }
+    }
+  }
+}
+
+
+

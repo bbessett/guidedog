@@ -1,0 +1,1209 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+/* ========================================================================== */
+/*   Header                                                                   */
+/* ========================================================================== */
+.header-top {
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+html > body  .header {
+	max-width: 100% !important; 
+	margin-bottom:0 !important;
+}
+
+
+.header {
+
+	@include user-select(none); 
+	max-width: 100% !important;
+	margin-bottom: 0 !important;
+	clear: both;
+
+	.logo { 	
+		-webkit-transform: translate3d(0,0,0);
+		-moz-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0); 
+		-o-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+		@include transition(height 0.3s ease);
+		//margin: 20px 0 50px; Changed for new branding logo
+		margin: -28px 0 0 0; 
+		max-width: 355px;
+		position: relative;
+		top: -22px;
+		height: 130px;
+		left: 0;
+		img { 
+			width: 110% !important;
+		}
+		@include breakpoint(narrow) {
+			img { 
+				width: 100% !important;
+			}
+		}
+
+		@media (max-width: 1200px) { 
+			margin: -23px 0 0 0;
+			left: 6%;
+		}           
+		a {
+			display:block;
+			width:100%;
+		}
+
+		&:after {
+			@include background(url(../img/general/sm_logo.png));
+			@include background(url(../img/svg/sm_logo.svg),none);
+			background-size: 0;
+			display: none;
+		}
+
+		@include breakpoint(medium) { 
+			left: -13%;
+			top: -18px;
+			margin: 0 0 -57px 0;
+		}
+
+		@include breakpoint(narrow) { 
+			margin: 0 auto;
+			padding-bottom: 0 !important;
+			width: auto !important;
+			right: 0;
+			left: 0;
+			top: -22px;
+			margin-bottom: -60px !important;
+		} 
+
+		@include ipad(portrait) {
+			left: -12% !important;
+			top: -41px !important;
+			margin-bottom: -120px !important;
+		}
+
+
+		@include iphone5(portrait) {
+			top: -35px;
+			margin-bottom: -39px !important;
+
+		} 
+
+
+	}
+
+  .cobr-active {
+  		.cobrand_logo {
+  			
+  			 max-width:140px;
+  		}	
+		.logo {
+			margin: -3px 0 0 0;
+			top: -20px;
+			height: 130px;
+			left: -30px;
+
+
+			@media (max-width: 1200px) { 
+				margin: -23px 0 0 0;
+				left: 6%;
+				top: 12px;
+			}     
+			@include breakpoint(medium) { 
+			left: -13%;
+			margin: 0 0 -54px 0;
+			top: -8px;
+			}
+			@include breakpoint(narrow) { 
+				margin: 0 auto;
+				margin-bottom: 0px !important;
+				left:0;
+				height:auto; 
+			}
+			a   
+			{
+				width: 100% !important;
+				margin: 0 auto;
+				@include breakpoint(narrow) { 
+					position: relative;
+					text-align: center;
+				}
+				img 
+				{
+				@media (max-width: 1200px) { 
+						width:100%;
+				 }
+					width: 85% !important;
+					@include breakpoint(medium) { 
+					width: 68% !important;
+					}
+				} 
+			}
+		}
+
+	}
+
+	.cobr-hidden  { 
+		.logo {
+
+			@include breakpoint(medium) { 
+				left: -9%;
+				top: -44px;
+				margin: 0 0 -118px 0;
+				height: 100%;
+			}
+			@include breakpoint(narrow) { 
+				left: 0;
+				margin:0 auto;
+				height:100%;
+			}
+			left: -9%	;
+
+			.logo {
+				@media (max-width: 1200px) {
+					margin: -20px 0 -40px 0; 
+					left: 6%;
+				}    
+			}
+
+		}
+		.cobrand-wrap  {
+			display:none !important;	
+		}
+} // end cobrand hidden
+
+.csstransitions & {
+
+
+	@include ipad(landscape) {
+		@include transition(none);
+	}
+	@include breakpoint(mobile) {
+		@include transition(none);
+	}
+}
+
+} //end header
+
+
+.header {
+	.logo {
+		@media (max-width: 1200px) {
+			a {
+				width: 115% !important;
+			}
+
+		}
+
+		@include breakpoint(tablet) {
+			a { 
+				width:95% !important;
+			}
+		}
+		@include breakpoint(767) {
+			a { 
+				width:100% !important;
+			}
+		}
+	}
+}
+
+
+
+.sticky-menu-active {
+	
+	.header {
+	.cobr-active { 
+	.logo {
+		top: 0 !important;	
+		padding-top: 2px;
+		left: -18px;
+		@media (max-width: 1200px) {
+		top: 0 !important;
+		left: -4px;
+		bottom: -2px;
+		}
+		@media (max-width: 1200px) {	
+		img {	
+			width: 72% !important;
+		}
+		}
+		img {
+			width: 68% !important;
+		} 
+		 }
+		}
+	}
+
+	.logo {
+		@media (max-width: 1200px) {
+			a { 
+				width: 115% !important;
+			}
+		}
+		@include breakpoint(tablet) {
+			a { 
+				width:95%;
+			}
+		}
+
+		@include breakpoint(767) {
+			a { 
+				width:100%;
+			}
+		}
+		img {
+			width:100% !important;
+		}
+		@media (max-width: 1200px) {
+			img {
+				width:100% !important;
+			}
+		}
+
+	}
+
+	.login-wrapper {
+		padding-top:0;
+		.btn {
+			padding: 3px 5px 3px 5px !important;
+			transition: 0.2s;
+		}
+		.divider {
+			-webkit-transform: translateZ(0);
+			@include transition(all 0.5s);
+			max-height: 53px;
+			padding-top: 1px;
+		}
+
+	}
+	.cobr-hidden {
+		.logo {
+			margin: -20px 0 -40px 0 !important;
+			top: -35px !important;
+
+			> a {
+				right: 0 !important;
+			}
+		}
+	}
+}
+
+#cobrandlogo {
+	
+	margin-top:22px;
+	max-width:100%;
+	
+	@include breakpoint(medium) {
+		width: auto !important;
+		margin:33px auto 0 !important;
+	}
+
+	@include breakpoint(narrow) {
+		max-width: 23% !important;
+		position: relative;
+		width: auto;
+	}
+
+	@include breakpoint(mobile) {
+		max-width: 53% !important;
+		position: relative;
+		width: auto;
+		margin: 0 auto;
+	}
+	
+
+
+	@include ipad(portrait) {
+		margin: 19px auto 0 !important;
+		max-width: 88% !important;
+		.cobrand_logo {	
+			max-width: 100% !important;
+		}
+	}
+
+	@include iphone5(portrait) {
+		margin: 0 auto 0 !important;
+
+	}
+
+	.logo_img {
+		border: 0 none;
+		height: auto;
+		max-width: 100% !important;
+		position: relative;
+
+		.ie & {
+		//	max-height: 67px;  HACK for IE
+	}
+
+}
+}
+
+.header-top {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.login-wrapper {
+	padding-top:16px;
+	
+	@include breakpoint(medium) {
+		position: relative;
+		bottom: 71px;
+		padding-top:0;
+	}
+	@include breakpoint(767) {
+		position: relative;
+		bottom: 43px;
+		padding-top:0;
+	}
+
+	@include ipad(portait) {
+		bottom:62px;
+	}
+
+
+}
+
+
+
+.login {
+	$padding: 30px;
+	padding: #{$padding} 0 0;
+
+
+	@include breakpoint(narrow) {
+		padding: 0 0 #{$padding};
+	}
+
+
+	&,
+	.action-btns {
+		float: right;
+		font-size: 0;
+		padding-top: 13px;
+		text-align: right;
+		@include breakpoint(767) {
+			font-size: 0;
+			padding-top: 13px;
+			text-align: center;
+			margin: 0 auto;
+			width: 100%;
+			text-align: center;
+		}
+
+		a {
+			margin-left: 5px;
+			&:first-child {
+				margin-left: 10px;
+				@include breakpoint(767) {
+					margin-left:0;
+				}
+			}
+		}
+
+	}
+
+	.col-md-6 {
+		padding: 12px 0 10px;
+	}
+
+	.divider {
+		padding:0;
+		float: left;
+		max-height:60px;
+		@include breakpoint(767) {
+			border: 0;
+			margin: 0 auto;
+			width: 100%;
+			float:none;
+		}
+
+	}
+}
+
+
+.social-top  {
+	padding-right: 10px;
+	padding-top: 5px;
+	@include breakpoint(767) {
+		padding-right: 0;
+		padding-top:0;
+	}
+	li {
+		display: block;
+		vertical-align: top;
+		text-align: center;
+		margin-left:0;
+		/* width: 36px; */
+		float: left;
+		@include breakpoint(767) {
+			padding-right: 0;
+			display: inline-block;
+			vertical-align: top;
+			text-align: center;
+			width: auto;
+			float: none;
+			margin: 0 auto;
+
+		}
+	}
+
+	a {
+		display: block;
+		&:first-child {
+			margin-left:0;
+		}
+		
+
+	}
+}
+.social-wrap {
+	@include breakpoint(tablet) {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.social-bottom {
+		@include breakpoint(tablet) {
+			width: 100%;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		margin-bottom: 10px;
+		li {
+			margin-left: 0;
+			@include breakpoint(tablet) {
+				margin:0 auto;
+				display:inline-block;
+			}
+			&:first-child {
+				margin-left: -7px;
+				@include breakpoint(tablet) {
+					margin-left:0;
+				}
+			}
+		}
+
+		a {
+
+			height: 40px;
+			width: 37px;
+			margin-right: 6px !important;
+			font-size: 43px !important;
+		}
+
+	}
+}
+
+
+
+.nb-btn-yellow {
+	background:$button-yellow;	
+	border-radius:0;
+	color:#000;
+	&:hover	{
+		transition: .1s ease-in-out;
+		background:$button-yellow-hover;
+	}
+
+}
+
+
+
+.nb-btn-blue {
+	border:$blue-button;	
+	border-radius:0;
+	background:$white;
+	color:#000;
+	&:hover	{
+		transition: .1s ease-in-out;
+	// background:$light-grey;
+}
+
+}
+
+
+
+/* ========================================================================== */
+/*   Navs                                                                     */
+/* ========================================================================== */
+
+
+.nav-main {
+	position: relative;
+
+	@include breakpoint(medium) {
+		display: block;
+		float: none;
+		padding: 0;
+		width: 100%; 
+	}
+
+	h5 {
+		// @include text-shadow(1px 1px 1px $white);
+		color: $blue;
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+
+	hr {
+		border: none;
+		border-bottom: 1px solid $white;
+		border-top: 1px solid #e4e4e4;
+		clear: both;
+		height: 0;
+		margin: 0 0 4px;
+		width: 100%; 
+	}
+
+	ul,
+	ol,
+	li {
+		list-style: none;
+	}
+
+	li {
+
+		li {
+			line-height: 1.75;
+			position: relative;
+		}
+	}
+	.list {
+		li {
+			margin-bottom:0;
+		}
+	}
+	.list-faq {
+
+		li {
+			margin-bottom: 12px;
+		}
+	}
+
+	.menu {
+	background-color: $menu1;
+	font-size: 0;
+	height: auto;
+	line-height: 49px;
+	margin: 0 auto 0;
+	border-bottom:10px solid #fff;
+	@include breakpoint(medium) {
+	border-bottom:0 !important;
+	}
+	position: relative;
+	width: 100%;
+	z-index: #{$top-z-index/10};
+
+	@include breakpoint(medium) {
+		height: auto;
+		line-height: #{49px*1.5};
+		max-height: 0;
+		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: hidden;
+
+		.js & {
+			//	background: #171717;
+			background: #171717;
+		}
+	}
+
+	> ul {
+		display: table;
+		line-height: inherit;
+		position: relative;
+		width: 100%;
+
+		&,
+		> li {
+			margin: 0;
+			padding: 0;
+		}
+
+		> li {
+				//@include transition(background .5s ease);
+				border-bottom: 0;
+				display: table-cell;
+				width: 1%;
+
+				@include breakpoint(medium) {
+					//@include transition(none);
+					background: #ededed !important;
+					border-bottom: 2px solid #fff;
+					display: block;
+					width: 100%;
+				}
+
+				&:first-child {
+
+					> a {
+						border-left: 0;
+					}
+				}
+
+				&:last-child {
+
+					> a {
+						border-right: 0;
+					}
+				}
+				a:hover {
+					color:$blue-hover;	
+				}
+				&:hover {
+
+					> .dropdown {
+						left: 0;
+						margin-top: $menu_height;
+						right: -1px;
+						top: 0;
+						width: auto;
+					}
+
+					@include breakpoint(medium) {
+
+						&,
+						> a {
+							background-color:#fff !important;
+							color: $blue !important;
+							// background: url("../img/blue-bar.png") 0 0 repeat-x !important;
+						}
+					}
+				}
+
+				> a {
+					border: {
+						left: 1px solid $menu_link_border_left_color;
+						right: 1px solid $menu_link_border_right_color;
+					};
+					color: $menu_link_color;
+					display: block;
+					font: {
+						size: 14px;
+						// weight: 700;
+					};
+					outline: 0 none;
+					padding: 0 15px;
+					text: {
+						align: center;
+						decoration: none;
+						// transform: uppercase;
+					};
+
+					@include breakpoint(medium) {
+						border: {
+							left: 0;
+							right: 0;
+						};
+					}
+
+				}
+
+				> .dropdown + a:hover,
+				&:hover > .dropdown + a {
+				//	background-color: #fff;
+				background: url("../img/blue-bar.png") 0 0 repeat-x;
+				//	@include background( linear-gradient(top, $menu_link_hover_gradient1 29%, $menu_link_hover_gradient2 100%) );
+
+					// .ie.no-cssgradients & {
+					// 	-pie-background: linear-gradient(top, $menu_link_hover_gradient1 29%, $menu_link_hover_gradient2 100%);
+					// }
+
+					color: $blue;
+
+					&:before {
+						border: 0 none;
+					}
+				}
+			}
+
+			> li:hover,
+			> .active {
+			//	background-color: $menu_item_hover_gradient1;
+				//@include background( linear-gradient(top, $menu_item_hover_gradient1, $menu_item_hover_gradient2) );
+				// background-repeat: repeat-x;
+				background: url("../img/blue-bar.png") 0 0 repeat-x;
+				// .ie.no-cssgradients & {
+				// 	-pie-background: linear-gradient(top, $menu_item_hover_gradient1, $menu_item_hover_gradient2);
+				// }
+			}
+
+			> .active {
+
+				> a {
+					background: url("../img/blue-bar.png") 0 0 repeat-x;
+					border: 0 none;
+					position: relative;
+					color:$blue-hover;
+				}
+			}
+		}
+	}
+
+	.dropdown {
+		background-color: $white;
+		// @include transition(all 0.1s ease);
+		border: solid $blue;
+		border-width: 0 0 4px;
+		color: #888; 
+		display: block;
+		font-size: 12px;
+		left: -9999ex;
+		margin: 0;
+		padding: {
+		bottom: 10px;
+		top: 24px;
+		};
+		position: absolute;
+		top: -9999ex;
+		width: 100%;
+		z-index: #{$top-z-index/10 - 2};
+
+		@include breakpoint(medium) {
+			@include transparent;
+			background: none !important;
+			display: none !important;
+			height: 0;
+			width: 0;
+		}
+
+		@include breakpoint(narrow) {
+			background-color: transparent;
+			// @include background( linear-gradient(to bottom, $dropdown_gradient1 71%, $dropdown_gradient2 100%) );
+		}
+
+		.lt-ie9 & {
+			display: block;
+			zoom: 1;
+
+			.dropdown_fullwidth_bg {
+				//-pie-background: linear-gradient(top, $dropdown_gradient1 71%, $dropdown_gradient2 100%);
+				bottom: 0;
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 0;
+				z-index: -1;
+			}
+		}
+
+		a {
+			color: $menu_linkcolor;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		.pull-right {
+			color: #888;
+			line-height: normal;
+
+			&:hover {
+				color: $menu_linkcolor;
+			}
+		}
+
+		ul,
+		ol {
+			margin: 0 0 20px;
+			padding: 0;
+		}
+
+		ul {
+
+			ul li {
+				padding-left: 10px;
+			}
+		}
+	}
+
+	.disable-pointer-events {
+		pointer-events: none!important;
+	}
+}
+
+
+.btn.btn-responsive-nav { 
+
+	 @include tap-highlight-color;
+	 @include user-select(none);
+	-webkit-touch-callout: none;
+	display:none !important;
+	background: #1695BB !important;
+	width: 100% !important;
+	height: auto;
+	text-align: center;
+	position: relative;
+	margin: -35px auto 0;
+	background: none;
+	outline: none;
+	border: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent; /* For some Androids */
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	// .lt-ie9 & {
+	// 	left: 100%;
+	// 	margin-left: -#{100%+$right};
+	// 	right: auto;
+	// } 
+
+	> span {
+		font-family: $body-font-family;
+		// margin-right:5px;
+	}
+
+	@include breakpoint(medium) {
+		display: block !important;
+	}
+
+}
+nav.nav-main .btn:active, nav.nav-main .btn.active {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important; 
+}
+
+.morph-shape svg {
+	height: 25px;
+	width: 25px;
+	top: 2px;
+	position: relative;
+}
+
+
+.morph-shape svg path,
+.morph-shape svg line {
+	stroke: #fff;
+	stroke-width: 8px;
+
+	-webkit-transform: translateZ(0);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+
+
+}
+
+.active .morph-shape svg {
+	height:25px;
+	width: 25px;
+	top: 3px;
+	position: relative;
+	-webkit-transform: translateZ(0);
+	-webkit-transform: translate(0,0) rotate(90deg);
+	transform: translate(0,0) rotate(90deg);
+
+}
+
+
+.active .morph-shape svg line:first-of-type {
+display:none;
+}
+
+.active .morph-shape svg path:first-of-type {
+	-webkit-transform: translate(30px, 0) rotate(56deg);
+    transform: translate(30px, 0) rotate(56deg);
+}
+.active .morph-shape svg path:nth-of-type(2) {
+	-webkit-transform:translate(-35px,25px) rotate(-54deg);
+    transform: translate(-35px,25px) rotate(-54deg); 
+}
+
+
+
+.sidebar-title {
+	background: $white;
+	color: #d1cbcb;
+	font-size: 18.5px;
+	line-height: 20px;
+	margin: 0;
+	padding: 30px 10px 15px 25px;
+}
+.sidebar-menu {
+	padding: 0 10px 10px 25px;
+
+	&,
+	li ul {
+		list-style-type: none;
+	}
+
+	> li {
+		border-bottom: 1px solid #ccc;
+
+		&:last-child {
+			border-bottom: 0;
+
+			a {
+				padding-bottom: 0;
+			}
+		}
+
+		&,
+		> a {
+			display: block;
+		}
+
+		> a {
+			color: $menu_link_border_left_color;
+			font-weight: 700;
+			padding: 5px 0;
+		}
+	}
+
+	li {
+
+		ul {
+			display: none;
+			margin-left: 15px;
+			padding: 0 0 10px;
+
+			a {
+				color: #555;
+				display: block;
+				font-size: 12px;
+				font-weight: 700;
+			}
+		}
+
+	}
+
+	.icon {
+		font-family: inherit;
+		line-height: inherit;
+
+		> a {
+			position: relative;
+
+			&:after {
+			//	@include font-awesome-icon;
+			color: #958f7b;
+			//	content: "\f054";
+			// font-weight: $body-font-weight;
+			margin: {
+				left: 5px;
+				top: -.5em;
+			};
+			position: absolute;
+			top: 50%;
+		}
+	}
+}
+
+.active {
+
+	> a {
+		text-decoration: underline;
+	}
+
+	ul {
+		display: block;
+	}
+}
+}
+.renter_faq {
+	margin:-12px 0 0 0;
+	display: block;
+}
+
+
+
+
+
+/* ========================================================================== */
+/*   Sticky Menu Header                                                       */
+/* ========================================================================== */
+
+.sticky-menu-active {
+	.cobrand_logo{
+		right: 0;
+		bottom: 10%;
+		position: relative;
+		width: 100%;
+	}
+	.header {
+		clear: none;
+		position: fixed;
+		width: 100%;
+		z-index: #{$top-z-index/10000 + 1};
+
+		> .container {
+			@include box-shadow(0 2px 0 rgba(0,0,0,0.15));
+		
+		}
+		.header-top {
+			padding-bottom:15px;
+			padding-top:5px;
+
+		}
+		.logo {
+			margin: 0 0 1%;
+			padding-right: 0;
+			right: 0;
+			top: -10px;
+			margin: -20px 0 -40px 0 !important;
+			top: -35px !important;
+			  -webkit-transform: translate3d(0,0,0);
+			  -moz-transform: translate3d(0,0,0);
+			  -ms-transform: translate3d(0,0,0);
+			  -o-transform: translate3d(0,0,0);
+			  transform: translate3d(0,0,0);
+			a {
+				display: block;
+				height: 84px;
+				width: 90%;
+				right: 10%;
+				position: relative;
+				bottom: -6px;
+	             -webkit-transform: translateZ(0);
+
+				@include transition(all 0.2s ease);
+
+				@include breakpoint(mobile) {
+					@include transition(0);
+				}
+
+				@include ipad(landscape) {
+					height: 99px;
+					width: 115%;
+					right: 12%;
+					position: relative;
+					bottom: 0px;
+				}
+			}
+
+		}
+
+		.logo_img {
+			max-height: 105px;
+			height: 105px;
+
+			.lt-ie9 & {
+				width: 85%;
+			}
+		}
+	}
+
+	&.cobrands {
+
+		.header {
+
+			.logo {
+				padding-right: 180px;
+				padding-bottom: 0;
+			}
+		}
+	}
+
+	.nav-main {
+
+
+		.menu {
+			line-height: $small_menu_height;
+			min-height: $small_menu_height;
+
+			> ul {
+				display: block;
+				white-space: nowrap;
+
+				.lt-ie9 & {
+
+					&:after {
+						clear: both;
+						content: '';
+						display: table;
+					}
+				}
+
+				> li {
+					@include inline-block(top);
+					white-space: normal;
+					width: auto;
+
+					.lt-ie9 & { 
+						float: left;
+					}
+
+					&:hover {
+						color:$blue-hover;
+						> .dropdown {
+							margin-top: $small_menu_height;
+						}
+
+						> .dropdown + a:hover,
+						&:hover > .dropdown + a {
+							background-color: #000;
+
+							&:before {
+								display: none;
+							}
+
+							&:after {
+								border-top-color: #000;
+							}
+						}
+					}
+
+					> a {
+						font-size: 11px;
+						padding: 0 20px;
+					}
+				}
+
+				> .active {
+
+					a {
+
+						&:before {
+							display: none;
+						}
+					}
+				}
+
+				.dropdown {
+
+					+ a {
+						padding-right: 27px;
+						position: relative;
+
+						&:before,
+						&:after {
+							$width: 4px;
+
+							border: {
+								color: transparent;
+								style: solid;
+								width: 5px $width 0 $width;
+							};
+							content: '';
+							display: block;
+							height: 0;
+							left: auto;
+							margin: 0;
+							position: absolute;
+							right: 15px;
+							top: 10px;
+							width: #{$width*2};
+						}
+
+						&:before {
+							border-top-color: $black;
+							margin-top: 1px;
+						}
+
+						&:after {
+							border-top-color: $light-gray;
+						}
+					}
+				}
+			}
+		}
+
+	}
+}
