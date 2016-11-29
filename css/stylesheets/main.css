@@ -8703,6 +8703,27 @@ ul {
       top: 0.14285714285714285em;
       width: 2.142857142857143em; }
 
+div#searchResults.gcse-results-wrapper {
+  padding: 0 160px; }
+  div#searchResults.gcse-results-wrapper .gsc-above-wrapper-area .gsc-orderby-container {
+    display: none; }
+  div#searchResults.gcse-results-wrapper .gsc-control-cse .gsc-table-result {
+    font-family: "IntroRegular", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  div#searchResults.gcse-results-wrapper .gs-title {
+    margin-bottom: 5px; }
+  div#searchResults.gcse-results-wrapper .gs-title a, div#searchResults.gcse-results-wrapper .gs-title b {
+    color: #00a6ca;
+    font-size: 1.3rem !important;
+    line-height: 28px; }
+  div#searchResults.gcse-results-wrapper .gs-webResult .gs-snippet {
+    font-size: 16px;
+    line-height: 24px; }
+  div#searchResults.gcse-results-wrapper .gsc-thumbnail {
+    display: none; }
+  div#searchResults.gcse-results-wrapper .gsc-url-bottom .gs-visibleUrl {
+    color: #00a6ca;
+    font-family: "IntroLight", "Helvetica", "Arial" sans-serif; }
+
 /* 
 TRANS UNION STYLEGUIDE 
 AUTHOR: AVENUE, INC

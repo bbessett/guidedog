@@ -1,6 +1,7 @@
 var config = {
   gcseId: '013413336405187782954:zhd6omghotc',
-  resultsUrl: 'http://localhost/faq-dev/search-results.php',
+  // resultsUrl: 'http://localhost/faq-dev/search-results.php',
+  resultsUrl: 'http://localhost:14642/search-results.php',
   searchWrapperClass: 'gcse-search-wrapper',
   resultsWrapperClass: 'gcse-results-wrapper'
 };
@@ -23,10 +24,12 @@ function imageCaptions() {
         };
 
 
-imageCaptions();
+$( document ).ready(function() { 
+  imageCaptions();
+});
 
 $( window ).resize(function() {
-  $( "#log" ).append( "<div>Handler for .resize() called.</div>" );
+  // $( "#log" ).append( "<div>Handler for .resize() called.</div>" );
   imageCaptions();
 });
 
@@ -95,6 +98,7 @@ var renderSearch = function (div) {
 };
 
 var renderResults = function(div) {
+
   google.search.cse.element.render(
     {
       div: searchResults,
@@ -109,6 +113,7 @@ window.__gcse = {
 };
 
 (function () {
+
   var cx = config.gcseId;
   var gcse = document.createElement('script');
   gcse.type = 'text/javascript';
@@ -117,5 +122,6 @@ window.__gcse = {
     '//cse.google.com/cse.js?cx=' + cx;
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(gcse, s);
+
 })();
 

@@ -146,3 +146,41 @@ ul {
     }
   }
 }
+
+#searchForm {
+    // padding:0 160px;
+}
+/// google search 
+div#searchResults.gcse-results-wrapper {
+  padding:0 160px;
+  .gsc-above-wrapper-area  {
+    // display:none;
+    .gsc-orderby-container {
+      display:none;
+    }
+  }
+  .gsc-control-cse .gsc-table-result {
+     font-family: $text-font-stack;
+}
+  .gs-title {
+        margin-bottom: 5px;
+  }
+ .gs-title a,   .gs-title b {
+  color:$text-blue;
+  font-size: 1.3rem !important;
+    line-height: 28px;
+}
+.gs-webResult .gs-snippet {
+  font-size:16px;
+  line-height: 24px;
+}
+.gsc-thumbnail {
+  display:none;
+}
+.gsc-url-bottom {
+.gs-visibleUrl {
+color:$text-blue;
+font-family:$IntroLight;
+}  
+}
+}

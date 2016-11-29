@@ -1,74 +1,8 @@
-<!DOCTYPE html>
 
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>FAQ Search Demo Search Results</title>
-
-    <!-- Bootstrap Core CSS -->
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS --> 
-    <link href="css/stylesheets/main.css" rel="stylesheet">
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-
-
-<!--       <script src="https://www.google.com/jsapi"
-        type="text/javascript"></script> -->
-
-
-</head>
-
-<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
+<?php include 'header.php';?>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                    
-
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
+<?php include 'nav.php';?>
+<?php include 'mini-nav.php';?>
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
         <div class="container">
@@ -85,34 +19,54 @@
     s.parentNode.insertBefore(gcse, s);
   })();
 </script> -->
- <div styling-function="removePlaceholder" id="searchForm" class="gcse-search-wrapper"></div>
+ <div id="searchForm" class="gcse-search-wrapper"></div>
    <div id="searchResults" class="gcse-results-wrapper"></div>
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+
                 </div>
             </div>
         </div>
     </section>
+                <section id="support" class="support-section">
+                <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Still Have Questions</h2>
+            
+                    <div class="col-md-6 support-icon">
+                    <a class='ico-link' href="mailto:TURSSCustomerService@transunion.com?Subject=Hello%20again" target="_top"><i class="icon icon-email"></i></a>
+                    <h4>Email Us</h4>
+                    <a href="mailto:TURSSCustomerService@transunion.com?Subject=Hello%20again" target="_top">TURSSCustomerService@transunion.com</a>
+                    </div>
+               <!--      <div class="col-md-4 support-icon">
+                    <i class="icon icon-twitter"></i>
+                    </div> -->
+                    <div class="col-md-6 support-icon">
+                    <i class="icon icon-support"></i>
+                    <h4>Call Us<h4>
+                    <a href="tel:1-866-775-0961">1 (866) 775-0961</a>
+                    </div>
+                    </div>
+                    </div>
+             
+            </div>
+        </section>
 
     <!-- About Section -->
    
-      <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
+          <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
 
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/app.js"></script>
+        <script src="bower_components/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
-      <script src="js/app.js"></script>
-       <script src="js/survey .js"></script>
-      
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-
+        <!-- Scrolling Nav JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
 </body>
 
 </html>
