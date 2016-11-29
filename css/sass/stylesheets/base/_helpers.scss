@@ -53,3 +53,72 @@
   position: absolute;
   width: 1px;
 }
+
+
+/* ========================================================================== */
+/*   Misc/Utilities                                                           */
+/* ========================================================================== */
+
+.add-bottom {
+  margin-bottom: 20px;
+}
+.add-top {
+  margin-top: 20px;
+}
+.add-half-top {
+  margin-top: 10px;
+}
+.dim-bg {
+  background: #717171;
+}
+.highlight {
+  background: $white;
+
+  .divider {
+
+    @include breakpoint(narrow) {
+      border-right: 0 none;
+    }
+  }
+}
+.divider {
+  border-right: 1px solid $blue;
+}
+.shadow-top {
+  @include background( url(../img/global/shadow-top.png) );
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+$border: 1px solid #cac4ba;
+.border-top {
+  border-top: $border;
+}
+.border-bottom {
+  border-bottom: $border;
+}
+.small-type {
+  font-size: 11px;
+}
+div.center {
+  text-align: center;
+}
+.pull-bottom {
+  margin-bottom: 35px;
+}
+.pull-top {
+  margin-top: 35px;
+}
+.bold {
+  font-weight: 700;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.inverted {
+  @include inline-block;
+  color: $white;
+  padding: {
+    left: 10px;
+    right: 10px;
+  };
+}

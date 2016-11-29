@@ -54,7 +54,7 @@
 <div class="col-sm-6">
                 <div itemscope="" itemtype="http://schema.org/Organization" class="logo">
                     <a itemprop="url" href="https://uat.mysmartmove.com">
-                       <img itemprop="logo" class="main_logo" alt="TransUnion SmartMove" data-base-path="/sites/SmartMove/img/" src="/sites/SmartMove/img/svg/sm_logo.svg?timestamp=1480367720055"> 
+                       <img itemprop="logo" class="main_logo" alt="TransUnion SmartMove" data-base-path="img/sm_logo.svg" src="img/sm_logo.svg"> 
                    </a>
                 </div> <!-- /logo -->
 </div>
@@ -87,7 +87,7 @@
                             <path d="M3,20C3,20,15,20,30,20C45,20,57,20,57,20"></path>
                             <line x1="3" y1="40" x2="57" y2="40"></line>
                             <path d="M3,60C3,60,15,60,30,60C45,60,57,60,57,60"></path>
-                        <desc>Created with Snap</desc><defs></defs></svg>
+                            <defs></defs></svg>
                     </span>
                     </button>
                     <div class="menu">
@@ -265,7 +265,7 @@
                                         </div> <!-- /col-md-12 -->
                                     </div> <!-- /row -->
                                 </div> <!-- /dropdown -->
-                                <a href="https://uat.mysmartmove.com/SmartMove/support.page">Support</a>
+                                <a href="https://uat.mysmartmove.com/SmartMove/support.page">Help</a>
                             </li>
                         </ul>
                     </div>
@@ -276,9 +276,8 @@
 </header>
 
                 
-
+    <div class="container mini-nav">
     <nav class="navbar navbar-dark bg-inverse">
-    <div class="container">
       <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
       <div class="collapse navbar-toggleable-md" id="navbarResponsive">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -306,8 +305,8 @@
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
       </div>
-      </div>
     </nav>
+    </div>
 
         <!-- Intro Section -->
         <section id="intro" class="intro-section">
