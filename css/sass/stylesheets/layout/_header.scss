@@ -593,7 +593,7 @@ html > body  .header {
 	height: auto;
 	line-height: 49px;
 	margin: 0 auto 0;
-	border-bottom:10px solid #fff;
+	// border-bottom:10px solid #fff;
 	@include breakpoint(medium) {
 	border-bottom:0 !important;
 	}

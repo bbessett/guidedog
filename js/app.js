@@ -8,35 +8,64 @@ var config = {
 
 var getImage = $('.gal-item .gal-img').first();
 
-function imageCaptions() {
+var getImage2 = $('.intro-section .img-responsive').first();
 
+function imageCaptions() {
     getImage.each(function() {
                     var imgWidth = $(this).width();  
                     var imgHeight = $(this).height();
                     var threeRowHeight = imgHeight;
+                    var halfImageHeight = imgHeight / 2 + 18;
                     var position = $(this).position();
                     var positionTop = "5px";
                     $(".yellow-bg").parent().css({
                         "position": "relative",
                         "height": threeRowHeight + "px"
                     });
+        
             });
-        };
+
+        getImage2.each(function() {
+        var imgWidth = $(this).width();  
+        var imgHeight = $(this).height();
+        var halfImageHeight = imgHeight / 2;
+          $(".carousel-caption h1").css({
+               // "position": "relative",
+              "bottom": halfImageHeight + "px"
+          });
+          // $(".carousel-caption #se").parent().css({
+          //      "position": "relative",
+          //     "bottom": halfImageHeight + "px"
+          // });
+  
+        });
+};
 
 
-$( document ).ready(function() { 
-  imageCaptions();
-});
+
+
+
+
 
 $( window ).resize(function() {
   // $( "#log" ).append( "<div>Handler for .resize() called.</div>" );
   imageCaptions();
 });
 
+
+$(function() {
+  imageCaptions();
+});
+
+// $.fn.ekkoLightbox.defaults
+
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
-    $(this).ekkoLightbox();
+  $(this).ekkoLightbox({
+    // alwaysShowClose: true,
+  });
 });
+
 
 function placeholder() {
   var inputField = document.querySelector("input.gsc-input");
@@ -46,7 +75,6 @@ function placeholder() {
   $('gsc-search-button').remove( ":contains('Search')" );
   // Remove the background
   inputField.style.background = "none";
-
   // The background will get re-attached on blur, so add an event that will also remove it on blur
   // Another way to do this would be to de-attach the element from the DOM and then re-attach again, hence wiping the listeners
   inputField.addEventListener("blur", function() {
@@ -124,4 +152,3 @@ window.__gcse = {
   s.parentNode.insertBefore(gcse, s);
 
 })();
-

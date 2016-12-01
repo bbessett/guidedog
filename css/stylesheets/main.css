@@ -8611,12 +8611,14 @@ body {
   width: 100%;
   height: 100%; }
 
-.mini-nav {
-  display: none; }
-  @media (min-width: 767px) {
-    .mini-nav .navbar {
-      position: relative;
-      padding: .5rem 1rem; } }
+.container.mini-nav, section#intro .container, .header .container {
+  padding-right: 0;
+  padding-left: 0; }
+
+@media (min-width: 767px) {
+  .mini-nav .navbar {
+    position: relative;
+    padding: .5rem 1rem; } }
 
 .iw_component {
   display: block;
@@ -9906,7 +9908,6 @@ html > body .header {
     height: auto;
     line-height: 49px;
     margin: 0 auto 0;
-    border-bottom: 10px solid #fff;
     position: relative;
     width: 100%;
     z-index: 1000000; }
@@ -10796,7 +10797,6 @@ div#searchResults.gcse-results-wrapper .gs-title {
   left: 15%; }
   .carousel-caption h1 {
     position: absolute;
-    bottom: 290px;
     width: 100%;
     text-align: center; }
 
@@ -10857,20 +10857,6 @@ a.gal-img-link:hover img.gal-img {
   background-color: #fcd800;
   max-height: 100%; }
 
-div.support-icon {
-  text-align: center; }
-  div.support-icon a {
-    font-family: "introSemiBold";
-    overflow-wrap: break-word; }
-  div.support-icon a.ico-link:hover {
-    text-decoration: none; }
-  div.support-icon i {
-    font-size: 128px;
-    color: #000;
-    display: block;
-    max-height: 90px;
-    line-height: 0; }
-
 /*!
  * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
  * Copyright 2013-2016 Start Bootstrap
@@ -10905,25 +10891,29 @@ h4 {
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
-.quicklinks-section-left {
+.quicklinks-section {
   padding-top: 0; }
 
 .intro-section {
   padding-top: 0px;
   text-align: center; }
 
-.quicklinks-section-left {
+.quicklinks-section {
   height: auto;
   text-align: center;
   border-color: #444444; }
-  .quicklinks-section-left h2 {
+  .quicklinks-section .container {
+    padding-top: 20px; }
+  .quicklinks-section h2 {
     text-align: left; }
-  .quicklinks-section-left .container {
+  .quicklinks-section .container {
     border-bottom: 2px solid; }
-  .quicklinks-section-left img.secondary-img {
+  .quicklinks-section img.secondary-img {
     margin-top: -110px;
     width: 64%;
     margin-bottom: -7px; }
+  .quicklinks-section img.secondary-img-left {
+    width: 64%; }
 
 .categories-section {
   text-align: center; }
@@ -10952,3 +10942,29 @@ of those sections to manage the look and feel of the site. */
   background-color: #fff;
   padding-top: 20px;
   padding-bottom: 60px; }
+
+div.support-icon {
+  text-align: center; }
+  div.support-icon a {
+    font-family: "IntroSemiBold", "Helvetica", "Arial" sans-serif;
+    overflow-wrap: break-word;
+    text-decoration: none; }
+  div.support-icon a.ico-link:hover {
+    text-decoration: none; }
+  div.support-icon i {
+    font-size: 128px;
+    color: #000;
+    display: block;
+    max-height: 90px;
+    line-height: 0; }
+
+.single-cat-support .inner-divide {
+  border-right: 1px solid #ccc; }
+
+.single-cat-support div.support-icon i {
+  color: #00a6ca; }
+
+.single-cat-support div.support-icon h4 {
+  margin-top: 10px;
+  color: #00a6ca;
+  padding: 0 10px; }

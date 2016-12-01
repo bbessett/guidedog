@@ -2,18 +2,18 @@
 <?php include 'header.php';?>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <?php include 'nav.php';?>
-
+<?php include 'mini-nav.php';?>
 
         <!-- Intro Section -->
         <section id="intro" class="intro-section">
-            <div class="container">
+            <div class="container"> 
                 <div class="row">
                     <div class="col-lg-12">
 
-            <img src="img/faq-home-hero.jpg" class="img-responsive"/>        
+            <img src="img/hero-landlords.jpg" class="img-responsive">        
             <div class="carousel-caption">
-            <h1>We are Here to Help You</h1>
-            <div id="searchForm" class="gcse-search-wrapper"></div>
+            <h1>Let us help you protect your investment</h1>
+         <!--    <div id="searchForm" class="gcse-search-wrapper"></div> -->
 
             </div>
 
@@ -22,14 +22,44 @@
             </div>
         </section>
 
+     <section id="support" class="support-section single-cat-support">
+                <div class="container border-bottom">
+                <div class="row">
+                    <div class="col-lg-12">
+                    <h2>Still Have Questions</h2>
+                    <div class="col-md-4 support-icon">
+                    <div class="inner-divide">
+                    <a href=""><i class="icon icon-search-people"></i></a>
+                    <h4>Get Started</h4>
+                    </div>
+                    </div>
+                    <div class="col-md-4 support-icon">
+                    <div class="inner-divide">
+                    <a href=""><i class="icon icon-monitor"></i></a>
+                    <h4>Check application status</h4>
+                    </div>
+                    </div>
+
+               <!--      <div class="col-md-4 support-icon">
+                    <i class="icon icon-twitter"></i>
+                    </div> -->
+                      <div class="col-md-4 support-icon">
+                      <div class="inner-divide">
+                      <a href=""><i class="icon icon-calculator-1"></i></a>
+                      <h4>Understand Reports</h4>
+                      </div>
+                      </div>
+                    </div>
+                    </div>
+             
+            </div>
+        </section>      
         <!-- About Section -->
         <section id="quicklinks" class="quicklinks-section">
             <div class="container">
           <div class="row">
-          <div class="col-md-6">
-            <img src="img/smartphone-secondary.png" class="secondary-img">
-        </div>
-        <div  class="col-md-6 secondary-right">
+  
+        <div  class="col-md-5 offset-md-1 secondary-right">
          <h2>Trending Questions</h2>
           <ul class="list-unstyled feature-links">
             <li><a href="">How much does SmartMove Cost?</a></li>
@@ -39,13 +69,16 @@
             <li><a href="">What is the status of my application?</a></li>
         </ul>
         </div>
+            <div class="col-md-6">
+            <img src="img/trusty-dude.png" class="secondary-img-left">
+        </div>
 
         </div>
             </div>
         </section>
 
         <!-- Services Section -->
-        <section id="services" class="categories-section">
+<!--         <section id="services" class="categories-section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -55,8 +88,8 @@
                     <div class="row cat-icon-row">
                     <div class="col-md-12">
                     <div class="col-md-4 cat-thumb-wrap">
-                    <a href="http://localhost:14642/landlords.php"> <img class="img-responsive" src="img/landlords-section.png"></a>
-                    <a href="http://localhost:14642/landlords.php">Landlords</a>
+                    <img class="img-responsive" src="img/landlords-section.png">
+                    <a href="">Landlords</a>
                     </div>
             
                     <div class="col-md-4 cat-thumb-wrap">
@@ -71,7 +104,7 @@
                     </div>
              
             </div>
-        </section>
+        </section> -->
 
         <!-- Contact Section -->
         <section id="feedback" class="feedback-section help-section">

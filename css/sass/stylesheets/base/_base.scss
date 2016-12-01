@@ -18,10 +18,14 @@ body {
     height: 100%;
 
 }
+.container.mini-nav, section#intro .container, .header .container {
+      padding-right: 0;
+    padding-left: 0;
+}
 
 
 .mini-nav  {
-display:none;
+// display:none;
   .navbar { 
 
     @media (min-width: 767px) {
@@ -147,9 +151,7 @@ ul {
   }
 }
 
-#searchForm {
-    // padding:0 160px;
-}
+
 /// google search 
 div#searchResults.gcse-results-wrapper {
   padding:0 160px;

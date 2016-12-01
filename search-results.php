@@ -1,6 +1,6 @@
 
 <?php include 'header.php';?>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" class="cat-page" data-spy="scroll" data-target=".navbar-fixed-top ">
 <?php include 'nav.php';?>
 <?php include 'mini-nav.php';?>
     <!-- Intro Section -->

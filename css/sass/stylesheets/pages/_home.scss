@@ -52,13 +52,12 @@ div#searchResults.gcse-results-wrapper {
 
 .carousel-caption {
   padding-bottom:120px;
-
-    right:15%;
+  right:15%;
   left:15%;
 
   h1 {
     position: absolute;
-    bottom: 290px;
+    // bottom: 290px;
     // font-size: 38px;
     width: 100%;
     text-align:center;
@@ -134,23 +133,3 @@ background-color:#fcd800;
 max-height:100%;
 }
 
-
-div.support-icon {
-text-align:center;
-a {
-  font-family:"introSemiBold";
-      overflow-wrap: break-word;
- }
-a.ico-link:hover {
-  text-decoration: none;
-}
- i {
- 	font-size:128px;
- 	color:#000;
-  display:block;
-  max-height: 90px;
-  line-height:0;
-
-}
-
-}

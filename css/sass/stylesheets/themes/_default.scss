@@ -50,7 +50,7 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 
-.quicklinks-section-left {
+.quicklinks-section {
   padding-top:0;
 }
 
@@ -62,7 +62,10 @@ of those sections to manage the look and feel of the site. */
 }
 
 
-.quicklinks-section-left {
+.quicklinks-section {
+    .container {
+        padding-top:20px;
+    }
     h2 {
         text-align: left;
     }
@@ -79,6 +82,10 @@ of those sections to manage the look and feel of the site. */
       margin-bottom: -7px;
     }
 
+       img.secondary-img-left {
+         width: 64%;
+
+       }
 
 }
 
@@ -122,4 +129,42 @@ of those sections to manage the look and feel of the site. */
         padding-top: 20px;
      padding-bottom: 60px;
    }  
+}
+
+
+div.support-icon {
+text-align:center;
+a {
+  font-family:$IntroSemiBold;
+      overflow-wrap: break-word;
+      text-decoration: none;
+ }
+a.ico-link:hover {
+  text-decoration: none;
+}
+ i {
+    font-size:128px;
+    color:#000;
+  display:block;
+  max-height: 90px;
+  line-height:0;
+
+}
+
+}
+.single-cat-support { 
+    .inner-divide {
+        border-right:1px solid #ccc;
+    }
+    div.support-icon {
+    i {
+      color:$text-blue;  
+    }
+    h4 {
+    margin-top:10px;
+    color:$text-blue;
+    padding:0 10px;
+    }
+}
+
 }
