@@ -14,7 +14,6 @@
             <div class="carousel-caption">
             <h1>We are Here to Help You</h1>
             <div id="searchForm" class="gcse-search-wrapper"></div>
-
             </div>
 
                     </div>
@@ -55,8 +54,8 @@
                     <div class="row cat-icon-row">
                     <div class="col-md-12">
                     <div class="col-md-4 cat-thumb-wrap">
-                    <a href="http://localhost:14642/landlords.php"> <img class="img-responsive" src="img/landlords-section.png"></a>
-                    <a href="http://localhost:14642/landlords.php">Landlords</a>
+                    <a href="/guidedog/landlords.php"> <img class="img-responsive" src="img/landlords-section.png"></a>
+                    <a href="/guidedog/landlords.php">Landlords</a>
                     </div>
             
                     <div class="col-md-4 cat-thumb-wrap">
@@ -185,21 +184,7 @@
     })();
     </script> -->
         <!-- jQuery -->
-          <script
-      src="https://code.jquery.com/jquery-2.2.4.min.js"
-      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-      crossorigin="anonymous"></script>
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/app.js"></script>
-<!--         <script src="js/config.js"></script> -->
-        <script src="bower_components/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-        <!-- Scrolling Nav JavaScript -->
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/scrolling-nav.js"></script>
+  <?php include 'scripts.php';?>
 
     </body>
 

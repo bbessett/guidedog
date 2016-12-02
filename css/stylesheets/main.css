@@ -3112,36 +3112,6 @@ template {
   100% {
     opacity: 1; } }
 
-@-webkit-keyframes halfFadeIn {
-  0% {
-    opacity: 0.5; }
-  100% {
-    opacity: 1; } }
-
-@-moz-keyframes halfFadeIn {
-  0% {
-    opacity: 0.5; }
-  100% {
-    opacity: 1; } }
-
-@-ms-keyframes halfFadeIn {
-  0% {
-    opacity: 0.5; }
-  100% {
-    opacity: 1; } }
-
-@-o-keyframes halfFadeIn {
-  0% {
-    opacity: 0.5; }
-  100% {
-    opacity: 1; } }
-
-@keyframes halfFadeIn {
-  0% {
-    opacity: 0.5; }
-  100% {
-    opacity: 1; } }
-
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -8705,27 +8675,6 @@ ul {
       top: 0.14285714285714285em;
       width: 2.142857142857143em; }
 
-div#searchResults.gcse-results-wrapper {
-  padding: 0 160px; }
-  div#searchResults.gcse-results-wrapper .gsc-above-wrapper-area .gsc-orderby-container {
-    display: none; }
-  div#searchResults.gcse-results-wrapper .gsc-control-cse .gsc-table-result {
-    font-family: "IntroRegular", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
-  div#searchResults.gcse-results-wrapper .gs-title {
-    margin-bottom: 5px; }
-  div#searchResults.gcse-results-wrapper .gs-title a, div#searchResults.gcse-results-wrapper .gs-title b {
-    color: #00a6ca;
-    font-size: 1.3rem !important;
-    line-height: 28px; }
-  div#searchResults.gcse-results-wrapper .gs-webResult .gs-snippet {
-    font-size: 16px;
-    line-height: 24px; }
-  div#searchResults.gcse-results-wrapper .gsc-thumbnail {
-    display: none; }
-  div#searchResults.gcse-results-wrapper .gsc-url-bottom .gs-visibleUrl {
-    color: #00a6ca;
-    font-family: "IntroLight", "Helvetica", "Arial" sans-serif; }
-
 /* 
 TRANS UNION STYLEGUIDE 
 AUTHOR: AVENUE, INC
@@ -10790,6 +10739,58 @@ form.gsc-search-box div.gsc-clear-button {
 
 div#searchResults.gcse-results-wrapper .gs-title {
   text-align: left; }
+
+div#searchResults.gcse-results-wrapper {
+  padding: 0 160px; }
+  div#searchResults.gcse-results-wrapper .gsc-above-wrapper-area .gsc-orderby-container {
+    display: none; }
+  div#searchResults.gcse-results-wrapper .gsc-control-cse .gsc-table-result {
+    font-family: "IntroRegular", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  div#searchResults.gcse-results-wrapper .gs-title {
+    margin-bottom: 5px; }
+  div#searchResults.gcse-results-wrapper .gs-title a, div#searchResults.gcse-results-wrapper .gs-title b {
+    color: #00a6ca;
+    font-size: 1.3rem !important;
+    line-height: 28px; }
+  div#searchResults.gcse-results-wrapper .gs-webResult .gs-snippet {
+    font-size: 16px;
+    line-height: 24px; }
+  div#searchResults.gcse-results-wrapper .gsc-thumbnail {
+    display: none; }
+  div#searchResults.gcse-results-wrapper .gsc-url-bottom .gs-visibleUrl {
+    color: #00a6ca;
+    font-family: "IntroLight", "Helvetica", "Arial" sans-serif; }
+
+.min-nav-search #label {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  z-index: 20; }
+
+.min-nav-search #label label {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url("../../img/search-icon.png") 0 0;
+  font-size: 0;
+  color: transparent;
+  text-indent: -9999px;
+  cursor: pointer; }
+
+.min-nav-search #label label:hover {
+  background: url("../../img/search-icon.png") -60px 0; }
+
+.min-nav-search #label.active label {
+  background: url("../../img/search-icon.png") -60px 0; }
+
+.min-nav-search form.gsc-search-box td.gsc-input {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  width: 450px;
+  height: 60px;
+  z-index: 5;
+  overflow: hidden; }
 
 .carousel-caption {
   padding-bottom: 120px;
