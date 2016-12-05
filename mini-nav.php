@@ -22,8 +22,9 @@
             </div>
           </li>
         </ul>
-        <div class="form-inline float-lg-right cse-search">
-          <div id="label"><label for="search-terms" id="search-label">search</label></div>
+        <div class="form-inline float-lg-right mini-cse-search">
+          <div id="label"><label for="search-terms" id="search-label" class="icon icon-search"></label></div>
+<!--           <span id="search-icon"></span> -->
           <div id="searchForm" class="gcse-search-wrapper mini-nav-search"></div>
         </div>
       </div>

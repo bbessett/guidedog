@@ -1,6 +1,6 @@
 
 <?php include 'header.php';?>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" classs="faq-home" data-spy="scroll" data-target=".navbar-fixed-top">
 <?php include 'nav.php';?>
 
 
@@ -13,7 +13,9 @@
             <img src="img/faq-home-hero.jpg" class="img-responsive"/>        
             <div class="carousel-caption">
             <h1>We are Here to Help You</h1>
-            <div id="searchForm" class="gcse-search-wrapper"></div>
+              <span id="search-icon" style="display:none;"></span>
+                 <div id="label"><label for="search-terms" id="search-label"></label></div>
+            <div id="searchForm" class="gcse-search-wrapper" style="display:none;"></div>
             </div>
 
                     </div>

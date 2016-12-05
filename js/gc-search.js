@@ -6,15 +6,12 @@ var config = {
   resultsWrapperClass: 'gcse-results-wrapper'
 };
 
-
-
-
 function placeholder() {
   var inputField = document.querySelector("input.gsc-input");
   var inputbtn = document.querySelector("gsc-search-button");
   // Change the placeholder
   inputField.placeholder = "What's Your Question";
-  $('gsc-search-button').remove( ":contains('Search')" );
+  $('.gsc-search-button').remove( ":contains('Search')" );
   // Remove the background
   inputField.style.background = "none";
   // The background will get re-attached on blur, so add an event that will also remove it on blur
@@ -25,33 +22,35 @@ function placeholder() {
 // get vars
   var searchEl = document.querySelector(".gsc-input");
   var labelEl = document.querySelector("#label");
+  var cseWrap = document.querySelector(".mini-cse-search");
 
   // register clicks and toggle classes
   labelEl.addEventListener("click",function(){
     if (classie.has(searchEl,"focus")) {
-      classie.remove(searchEl,"focus");
-      classie.remove(labelEl,"active");
+       classie.remove(searchEl,"focus");
+       classie.remove(labelEl,"active");
+       classie.remove(cseWrap,"search-open");
     } else {
       classie.add(searchEl,"focus");
-      classie.add(labelEl,"active");
+      classie.add(searchEl,"active");
+      classie.add(cseWrap,"search-open");
     }
   });
 
   // register clicks outisde search box, and toggle correct classes
   document.addEventListener("click",function(e){
     var clickedID = e.target.id;
-    if (clickedID != "search-terms" && clickedID != "search-label") {
+    if (clickedID != "search-terms" && clickedID != "search-label" && clickedID != "gsc-i-id1") {
       if (classie.has(searchEl,"focus")) {
         classie.remove(searchEl,"focus");
         classie.remove(labelEl,"active");
+        classie.remove(cseWrap,"search-open");
       }
     }
   });
 
   
 };
-
-
 
 var renderSearchForms = function () {
   if (document.readyState == 'complete') {
