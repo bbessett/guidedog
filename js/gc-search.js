@@ -3,6 +3,7 @@ var config = {
   // resultsUrl: 'http://localhost/faq-dev/search-results.php',
   resultsUrl: 'http://localhost:14642/search-results.php',
   searchWrapperClass: 'gcse-search-wrapper',
+  miniSearchWrapperClass: 'mini-nav-search',
   resultsWrapperClass: 'gcse-results-wrapper'
 };
 
@@ -20,7 +21,11 @@ function placeholder() {
     inputField.style.background = "none";
   });
 // get vars
-  var searchEl = document.querySelector(".gsc-input");
+};
+
+
+function miniSearch() {
+    var searchEl = document.querySelector(".gsc-input");
   var labelEl = document.querySelector("#label");
   var cseWrap = document.querySelector(".mini-cse-search");
 
@@ -36,7 +41,6 @@ function placeholder() {
       classie.add(cseWrap,"search-open");
     }
   });
-
   // register clicks outisde search box, and toggle correct classes
   document.addEventListener("click",function(e){
     var clickedID = e.target.id;
@@ -48,9 +52,10 @@ function placeholder() {
       }
     }
   });
+};
 
   
-};
+
 
 var renderSearchForms = function () {
   if (document.readyState == 'complete') {
@@ -64,11 +69,19 @@ var renderSearchForms = function () {
 
 var queryAndRender = function() {
   var gsceSearchForms = document.querySelectorAll('.' + config.searchWrapperClass);
+
+  var gsceMiniSearchForms = document.querySelectorAll('.' + config.miniSearchWrapperClass);
+
   var gsceResults = document.querySelectorAll('.' + config.resultsWrapperClass);
 
-  if (gsceSearchForms) {
-    renderSearch(gsceSearchForms[0]);
+  if (gsceMiniSearchForms.length == 1) {
+       renderSearch(gsceSearchForms[0]);
        placeholder();
+       miniSearch();
+  }
+  if (gsceSearchForms) {
+      renderSearch(gsceSearchForms[0]);
+      placeholder();
   }
   if (gsceResults.length == 1) {
     renderResults(gsceResults[0]);

@@ -2,7 +2,7 @@
 <?php include 'header.php';?>
 <body id="page-top" class="cat-page" data-spy="scroll" data-target=".navbar-fixed-top ">
 <?php include 'nav.php';?>
-<?php include 'mini-nav.php';?>
+
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
         <div class="container">
@@ -19,7 +19,7 @@
     s.parentNode.insertBefore(gcse, s);
   })();
 </script> -->
-<!--  <div id="searchForm" class="gcse-search-wrapper"></div> -->
+    <div id="searchForm" class="gcse-search-wrapper"></div>
    <div id="searchResults" class="gcse-results-wrapper"></div>
 
                 </div>
