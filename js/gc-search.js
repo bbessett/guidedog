@@ -1,7 +1,13 @@
+// var base_url = window.location.origin;
+var host = window.location.host;
+var pathArray = window.location.pathname.split( '/' );
+var base = window.location;
+var base_url = base.protocol + "//" + base.host + "/" + base.pathname.split('/')[1]
+
 var config = {
+  cref: 'http://www.bessettcreative.com/sm/cse/cref_cse.xml',
   gcseId: '013413336405187782954:zhd6omghotc',
-  // resultsUrl: 'http://localhost/faq-dev/search-results.php',
-  resultsUrl: 'http://localhost:14642/search-results.php',
+  resultsUrl: base_url+'/search-results.php',
   searchWrapperClass: 'gcse-search-wrapper',
   miniSearchWrapperClass: 'mini-nav-search',
   resultsWrapperClass: 'gcse-results-wrapper'
@@ -124,12 +130,12 @@ window.__gcse = {
 
 (function () {
 
-  var cx = config.gcseId;
+  var cref = config.gcseId;
   var gcse = document.createElement('script');
   gcse.type = 'text/javascript';
   gcse.async = true;
   gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-    '//cse.google.com/cse.js?cx=' + cx;
+    '//cse.google.com/cse.js?cx=' + cref;
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(gcse, s);
 

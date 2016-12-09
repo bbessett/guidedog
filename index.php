@@ -1,4 +1,6 @@
 
+<?php  $base_url = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>
+
 <?php include 'header.php';?>
 <body id="page-top" classs="faq-home" data-spy="scroll" data-target=".navbar-fixed-top">
 <?php include 'nav.php';?>
@@ -15,6 +17,7 @@
             <h1>We are Here to Help You</h1>
 <!--               <span id="search-icon" style="display:none;"></span>
             <div id="label"><label for="search-terms" id="search-label"></label></div> -->
+
             <div id="searchForm" class="gcse-search-wrapper"></div>
             </div>
 
@@ -56,7 +59,7 @@
                     <div class="row cat-icon-row">
                     <div class="col-md-12">
                     <div class="col-md-4 cat-thumb-wrap">
-                    <a href="/guidedog/landlords.php"> <img class="img-responsive" src="img/landlords-section.png"></a>
+                    <a href="<?php echo $base_url ?>landlords.php"> <img class="img-responsive" src="img/landlords-section.png"></a>
                     <a href="/guidedog/landlords.php">Landlords</a>
                     </div>
             

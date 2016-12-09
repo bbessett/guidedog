@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GoogleCustomizations>
+  <CustomSearchEngine>
+      <Title>Solar Energy</Title>
+      <Description>A Google Custom Search Engine  about solar energy</Description>
+      <Context>
+         <BackgroundLabels>
+           <Label name="solar_example" mode="FILTER" />
+        </BackgroundLabels>
+      </Context>
+    </CustomSearchEngine>
+   <Annotations>
+    <Annotation about="http://www.solarenergy.org/*">
+      <Label name="solar_example"/>
+    </Annotation>
+   <Annotation about="http://www.solarfacts.net/*">
+       <Label name="solar_example"/>
+   </Annotation>
+  </Annotations>
+</GoogleCustomizations>
