@@ -20,7 +20,7 @@
 
 // 3. Base stuff
 @import
-  'base/base',
+  'base/base', 
   'base/fonts',
   'base/typography',
   'base/helpers';
@@ -33,7 +33,8 @@
 // 5. Components
 @import
   'components/button',
-  'components/search';
+  'components/search',
+  'components/mini-search';
 
 // 6. Page-specific styles
 @import
@@ -42,3 +43,4 @@
 // 7. Themes
 @import
   'themes/default';
+ 

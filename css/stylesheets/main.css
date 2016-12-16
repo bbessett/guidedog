@@ -10759,10 +10759,8 @@ form.gsc-search-box input.gsc-search-button {
   color: #000;
   background: url("../../img/search-icon.png") no-repeat 9px 6px;
   text-indent: -80px;
-  /* -webkit-border-radius: 2px; */
   background-size: 30px;
-  color: #fff;
-  /* -webkit-border-radius: 2px; */ }
+  color: #fff; }
 
 form.gsc-search-box div.gsc-clear-button {
   display: none; }
@@ -10792,57 +10790,73 @@ div#searchResults.gcse-results-wrapper {
     font-family: "IntroLight", "Helvetica", "Arial" sans-serif; }
 
 .mini-cse-search {
-  position: relative;
-  margin-top: 10px;
+  position: absolute;
+  margin-top: 0;
   width: 0%;
   min-width: 60px;
-  height: 60px;
-  float: right;
+  height: 40px;
+  right: 0;
   overflow: hidden;
-  -webkit-transition: width 0.3s;
-  -moz-transition: width 0.3s;
-  transition: width 0.3s;
+  -webkit-transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  transition: width 0.5s;
   -webkit-backface-visibility: hidden; }
+  .mini-cse-search .gsc-search-box {
+    padding: 8px 4px 0 6px;
+    margin-bottom: 0; }
   .mini-cse-search #label {
     color: #fff;
     background: #e67e22;
     z-index: 90;
     font-size: 64px;
-    position: relative; }
+    position: relative;
+    bottom: 5px; }
   .mini-cse-search #label label, .mini-cse-search .gsc-search-button input {
     width: 60px;
-    height: 60px;
+    height: 40px;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
     padding: 0;
     margin: 0;
-    line-height: 60px;
+    line-height: 28px;
     text-align: center;
-    cursor: pointer; }
+    cursor: pointer;
+    border: none !important; }
   .mini-cse-search .gsc-search-button {
     width: 60px;
-    height: 60px;
+    height: 40px;
     position: relative;
     z-index: 1;
     margin: 0;
-    margin-left: 0 !important; }
-  .mini-cse-search td.gsc-input input {
-    position: absolute;
-    top: 0;
+    margin-left: 0 !important;
+    bottom: 4px;
+    height: 36px;
+    width: 20px;
+    float: left;
     right: 0;
-    border: none;
-    outline: none;
-    background: #fff;
-    height: 60px;
-    margin: 0;
-    width: 100%;
-    z-index: -1;
-    padding: 10px;
-    font-family: inherit;
-    font-size: 20px;
-    color: #2c3e50; }
+    left: 0; }
+  .mini-cse-search td.gsc-input {
+    padding-right: 0;
+    width: 80%;
+    float: right; }
+    .mini-cse-search td.gsc-input input {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border: none;
+      outline: none;
+      background: #fff;
+      height: 60px;
+      margin: 0;
+      width: 100%;
+      z-index: -1;
+      padding: 10px;
+      font-family: inherit;
+      font-size: 20px;
+      color: #2c3e50;
+      text-align: right; }
   .mini-cse-search td.gsc-input.focus input {
     background: #da6d0d;
     color: #333;
@@ -10852,20 +10866,119 @@ div#searchResults.gcse-results-wrapper {
   .mini-cse-search td.gsc-input.focus input {
     outline: none;
     left: 0px;
-    transition: left 0.3s ease;
-    width: 100%; }
+    width: 100%;
+    height: 40px;
+    top: 4px; }
   .mini-cse-search #searchForm {
     z-index: -1;
     position: relative; }
 
-.mini-cse-search.search-open {
-  width: 40%; }
-  .mini-cse-search.search-open #searchForm {
+.search-open .mini-cse-search {
+  position: absolute;
+  top: 0;
+  left: 16.66667%;
+  width: 66.66667%;
+  height: 100vh; }
+  .search-open .mini-cse-search #searchForm {
     z-index: 10; }
-  .mini-cse-search.search-open .gsc-search-button {
-    z-index: 11; }
-  .mini-cse-search.search-open #label {
-    z-index: 1; }
+  .search-open .mini-cse-search td.gsc-input input {
+    -webkit-animation-name: fadeInRight;
+    -moz-animation-name: fadeInRight;
+    -ms-animation-name: fadeInRight;
+    -o-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -ms-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -ms-animation-timing-function: ease;
+    -o-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: left;
+    padding-left: 3.5em; }
+  .search-open .mini-cse-search .mini-quick-links {
+    display: block; }
+  .search-open .mini-cse-search .gsc-search-button {
+    z-index: 11;
+    float: left;
+    right: 0;
+    -webkit-animation-name: bounceInRight;
+    -moz-animation-name: bounceInRight;
+    -ms-animation-name: bounceInRight;
+    -o-animation-name: bounceInRight;
+    animation-name: bounceInRight;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -ms-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -ms-animation-timing-function: ease;
+    -o-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden; }
+  .search-open .mini-cse-search #label {
+    z-index: -1; }
+
+.mini-quick-links {
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 400;
+  letter-spacing: normal;
+  display: none;
+  background: #fff;
+  border-top: none;
+  color: #999;
+  max-height: calc(100% - 44px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  position: relative;
+  z-index: 30; }
 
 .carousel-caption {
   padding-bottom: 120px;

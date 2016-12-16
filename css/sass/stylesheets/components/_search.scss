@@ -21,19 +21,14 @@ input.gsc-search-button {
     color: #fff;
     font-weight: bold;
     padding: 0 8px;
-    height: 46px;
+    height: 46px; 
     min-width: 44px;
-    // background-color: transparent!important;
     border: 1px solid #fff;
     color: #000;
     background: url("../../img/search-icon.png") no-repeat 9px 6px;
     text-indent: -80px;
-    /* -webkit-border-radius: 2px; */
     background-size: 30px;
     color:#fff;
-
-    /* -webkit-border-radius: 2px; */
-
 }
 div.gsc-clear-button {
   display: none;
@@ -56,7 +51,7 @@ div#searchResults.gcse-results-wrapper {
   }
   .gsc-control-cse .gsc-table-result {
      font-family: $text-font-stack;
-}
+} 
   .gs-title {
         margin-bottom: 5px;
   }
@@ -81,100 +76,3 @@ font-family:$IntroLight;
 }
 
 
-.mini-cse-search {
-  // position: absolute;
-  position: relative;
-  margin-top: 10px;
-  width: 0%;
-  min-width: 60px;
-  height: 60px;
-  float: right;
-  overflow: hidden;
-  -webkit-transition: width 0.3s;
-  -moz-transition: width 0.3s;
-  transition: width 0.3s;
- -webkit-backface-visibility: hidden;
-#label {
-  color: #fff;
-  background: #e67e22;
-  z-index: 90;
-  font-size:64px;
-  position:relative;
-}
-#label label, .gsc-search-button input {
-  // background: url("../../img/search-icon.png") 0 0 no-repeat; 
-  width: 60px;
-  height: 60px;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 0;
-  margin: 0;
-  line-height: 60px;
-  text-align: center;
-  cursor: pointer;
-}
-.gsc-search-button {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    z-index: 1; 
-    margin:0;
-    margin-left:0 !important;
-  }
-
-td.gsc-input { 
-// background-color:green;
-  input {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: none;
-  outline: none;
-  background: #fff;
-  height: 60px;
-  margin: 0;
-  width:100%;
-  z-index: -1;
-  padding: 10px;
-  font-family: inherit;
-  font-size: 20px;
-  color: #2c3e50;
-  }
-
-}
-  td.gsc-input.focus {
-    input {
-      background: #da6d0d;
-      color: #333;
-      z-index: 11;
-      width: 100%;
-      padding:0;
-    }
-    input {
-      outline: none;
-      left: 0px;
-      transition: left 0.3s ease;
-      width: 100%;
-    }
-  }
-  #searchForm {
-    z-index: -1;
-    position:relative;
-  }
-
-}
-
-.mini-cse-search.search-open {
-  width:40%;
-  #searchForm {
-    z-index: 10;
-  }
-  .gsc-search-button {
-    z-index: 11;
-  } 
-  #label {
-    z-index:1;
-  }
-}

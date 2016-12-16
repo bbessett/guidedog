@@ -1,5 +1,11 @@
 
-<?php  $base_url = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>
+<?php  
+$base_url = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; 
+// $trimmedBaseUrl = rtrim('/', $base_url());
+$trimmedBaseUrl = rtrim($base_url, "/");
+$serverPort = $_SERVER['SERVER_PORT'];
+$newBaseUrl = "$trimmedBaseUrl:$serverPort/";
+?>
 
 <?php include 'header.php';?>
 <body id="page-top" classs="faq-home" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -59,7 +65,7 @@
                     <div class="row cat-icon-row">
                     <div class="col-md-12">
                     <div class="col-md-4 cat-thumb-wrap">
-                    <a href="<?php echo $base_url ?>landlords.php"> <img class="img-responsive" src="img/landlords-section.png"></a>
+                    <a href="<?php echo $newBaseUrl ?>landlords.php"> <img class="img-responsive" src="img/landlords-section.png"></a>
                     <a href="/guidedog/landlords.php">Landlords</a>
                     </div>
             

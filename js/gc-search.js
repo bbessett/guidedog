@@ -1,5 +1,5 @@
 // var base_url = window.location.origin;
-var host = window.location.host;
+var host = window.location.origin;
 var pathArray = window.location.pathname.split( '/' );
 var base = window.location;
 var base_url = base.protocol + "//" + base.host + "/" + base.pathname.split('/')[1]
@@ -7,7 +7,7 @@ var base_url = base.protocol + "//" + base.host + "/" + base.pathname.split('/')
 var config = {
   cref: 'http://www.bessettcreative.com/sm/cse/cref_cse.xml',
   gcseId: '013413336405187782954:zhd6omghotc',
-  resultsUrl: base_url+'/search-results.php',
+  resultsUrl: host +'/search-results.php',
   searchWrapperClass: 'gcse-search-wrapper',
   miniSearchWrapperClass: 'mini-nav-search',
   resultsWrapperClass: 'gcse-results-wrapper'
@@ -29,11 +29,10 @@ function placeholder() {
 // get vars
 };
 
-
 function miniSearch() {
     var searchEl = document.querySelector(".gsc-input");
-  var labelEl = document.querySelector("#label");
-  var cseWrap = document.querySelector(".mini-cse-search");
+    var labelEl = document.querySelector("#label");
+    var cseWrap = document.querySelector(".mini-nav");
 
   // register clicks and toggle classes
   labelEl.addEventListener("click",function(){
@@ -60,9 +59,6 @@ function miniSearch() {
   });
 };
 
-  
-
-
 var renderSearchForms = function () {
   if (document.readyState == 'complete') {
     queryAndRender();
@@ -81,11 +77,11 @@ var queryAndRender = function() {
   var gsceResults = document.querySelectorAll('.' + config.resultsWrapperClass);
 
   if (gsceMiniSearchForms.length == 1) {
-       renderSearch(gsceSearchForms[0]);
+       renderSearch(gsceMiniSearchForms[0]);
        placeholder();
        miniSearch();
   }
-  if (gsceSearchForms) {
+  if (gsceSearchForms.length == 1) {
       renderSearch(gsceSearchForms[0]);
       placeholder();
   }
