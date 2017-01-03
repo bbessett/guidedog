@@ -3112,36 +3112,6 @@ template {
   100% {
     opacity: 1; } }
 
-@-webkit-keyframes halfFadeIn {
-  0% {
-    opacity: 0.5; }
-  100% {
-    opacity: 1; } }
-
-@-moz-keyframes halfFadeIn {
-  0% {
-    opacity: 0.5; }
-  100% {
-    opacity: 1; } }
-
-@-ms-keyframes halfFadeIn {
-  0% {
-    opacity: 0.5; }
-  100% {
-    opacity: 1; } }
-
-@-o-keyframes halfFadeIn {
-  0% {
-    opacity: 0.5; }
-  100% {
-    opacity: 1; } }
-
-@keyframes halfFadeIn {
-  0% {
-    opacity: 0.5; }
-  100% {
-    opacity: 1; } }
-
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -8615,10 +8585,16 @@ body {
   padding-right: 0;
   padding-left: 0; }
 
-@media (min-width: 767px) {
-  .mini-nav .navbar {
-    position: relative;
-    padding: .5rem 1rem; } }
+.mini-nav .navbar {
+  -webkit-border-radius: 0 0;
+  -moz-border-radius: 0 / 0;
+  border-radius: 0 / 0; }
+  .csspie .mini-nav .navbar {
+    -pie-border-radius: 0; }
+  @media (min-width: 767px) {
+    .mini-nav .navbar {
+      position: relative;
+      padding: .5rem 1rem; } }
 
 .iw_component {
   display: block;
@@ -10758,7 +10734,7 @@ form.gsc-search-box input.gsc-search-button {
   border: 1px solid #fff;
   color: #000;
   background: url("../../img/search-icon.png") no-repeat 9px 6px;
-  text-indent: -80px;
+  text-indent: -120px;
   background-size: 30px;
   color: #fff; }
 
@@ -10788,6 +10764,45 @@ div#searchResults.gcse-results-wrapper {
   div#searchResults.gcse-results-wrapper .gsc-url-bottom .gs-visibleUrl {
     color: #00a6ca;
     font-family: "IntroLight", "Helvetica", "Arial" sans-serif; }
+
+.nav li {
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -ms-animation-name: fadeIn;
+  -o-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  -ms-animation-timing-function: ease;
+  -o-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 22;
+  position: relative; }
 
 .mini-cse-search {
   position: absolute;
@@ -10843,11 +10858,13 @@ div#searchResults.gcse-results-wrapper {
     float: right; }
     .mini-cse-search td.gsc-input input {
       position: absolute;
+      color: #fff !important;
       top: 0;
       right: 0;
       border: none;
       outline: none;
-      background: #fff;
+      background: transparent !important;
+      background-color: transparent !important;
       height: 60px;
       margin: 0;
       width: 100%;
@@ -10855,8 +10872,24 @@ div#searchResults.gcse-results-wrapper {
       padding: 10px;
       font-family: inherit;
       font-size: 20px;
-      color: #2c3e50;
+      color: #fff;
       text-align: right; }
+      ::-webkit-input-placeholder {
+        color: #fff;
+        filter: alpha(opacity=50);
+        opacity: 0.5; }
+      :-moz-placeholder {
+        color: #fff;
+        filter: alpha(opacity=50);
+        opacity: 0.5; }
+      ::-moz-placeholder {
+        color: #fff;
+        filter: alpha(opacity=50);
+        opacity: 0.5; }
+      :-ms-input-placeholder {
+        color: #fff;
+        filter: alpha(opacity=50);
+        opacity: 0.5; }
   .mini-cse-search td.gsc-input.focus input {
     background: #da6d0d;
     color: #333;
@@ -10873,6 +10906,45 @@ div#searchResults.gcse-results-wrapper {
     z-index: -1;
     position: relative; }
 
+.search-open .nav li {
+  -webkit-animation-name: fadeOut;
+  -moz-animation-name: fadeOut;
+  -ms-animation-name: fadeOut;
+  -o-animation-name: fadeOut;
+  animation-name: fadeOut;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-duration: 0.4s;
+  -moz-animation-duration: 0.4s;
+  -ms-animation-duration: 0.4s;
+  -o-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -ms-animation-delay: 0.1s;
+  -o-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  -ms-animation-timing-function: ease;
+  -o-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: -1;
+  position: relative; }
+
 .search-open .mini-cse-search {
   position: absolute;
   top: 0;
@@ -10882,21 +10954,21 @@ div#searchResults.gcse-results-wrapper {
   .search-open .mini-cse-search #searchForm {
     z-index: 10; }
   .search-open .mini-cse-search td.gsc-input input {
-    -webkit-animation-name: fadeInRight;
-    -moz-animation-name: fadeInRight;
-    -ms-animation-name: fadeInRight;
-    -o-animation-name: fadeInRight;
-    animation-name: fadeInRight;
+    -webkit-animation-name: fadeInRightBig;
+    -moz-animation-name: fadeInRightBig;
+    -ms-animation-name: fadeInRightBig;
+    -o-animation-name: fadeInRightBig;
+    animation-name: fadeInRightBig;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
     -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -ms-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 0.2s;
+    -moz-animation-duration: 0.2s;
+    -ms-animation-duration: 0.2s;
+    -o-animation-duration: 0.2s;
+    animation-duration: 0.2s;
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     -ms-animation-delay: 0s;
@@ -10925,21 +10997,21 @@ div#searchResults.gcse-results-wrapper {
     z-index: 11;
     float: left;
     right: 0;
-    -webkit-animation-name: bounceInRight;
-    -moz-animation-name: bounceInRight;
-    -ms-animation-name: bounceInRight;
-    -o-animation-name: bounceInRight;
-    animation-name: bounceInRight;
+    -webkit-animation-name: fadeInRightBig;
+    -moz-animation-name: fadeInRightBig;
+    -ms-animation-name: fadeInRightBig;
+    -o-animation-name: fadeInRightBig;
+    animation-name: fadeInRightBig;
     -webkit-animation-iteration-count: 1;
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
     -o-animation-iteration-count: 1;
     animation-iteration-count: 1;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -ms-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 0.3s;
+    -moz-animation-duration: 0.3s;
+    -ms-animation-duration: 0.3s;
+    -o-animation-duration: 0.3s;
+    animation-duration: 0.3s;
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     -ms-animation-delay: 0s;
@@ -10965,6 +11037,7 @@ div#searchResults.gcse-results-wrapper {
 
 .mini-quick-links {
   font-size: 15px;
+  padding: 20px;
   line-height: 2;
   font-weight: 400;
   letter-spacing: normal;
@@ -10978,7 +11051,16 @@ div#searchResults.gcse-results-wrapper {
   -webkit-overflow-scrolling: touch;
   white-space: nowrap;
   position: relative;
-  z-index: 30; }
+  z-index: 30;
+  top: 5px;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333; }
+
+.gsc-completion-container {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333; }
 
 .carousel-caption {
   padding-bottom: 120px;
@@ -11080,12 +11162,26 @@ h4 {
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
+.parallaxParent {
+  height: 50vh;
+  overflow: hidden; }
+
+.parallaxParent > * {
+  height: 200%;
+  position: relative;
+  top: -100%; }
+
 .quicklinks-section {
   padding-top: 0; }
 
 .intro-section {
   padding-top: 0px;
   text-align: center; }
+  .intro-section .container {
+    background: transparent; }
+    .intro-section .container .parallax-window {
+      min-height: 365px;
+      background: transparent; }
 
 .quicklinks-section {
   height: auto;

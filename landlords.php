@@ -7,15 +7,17 @@
         <!-- Intro Section -->
         <section id="intro" class="intro-section">
             <div class="container"> 
-                <div class="row">
+                <div class="row parallax-window">
                     <div class="col-lg-12">
-
-            <img src="img/hero-landlords.jpg" class="img-responsive">        
-            <div class="carousel-caption">
-            <h1>Let us help you protect your investment</h1>
+               <!--      <div class="parallax-window" data-natural-width="1110" data-natural-height="365" data-parallax="scroll" data-image-src="img/hero-landlords.jpg"></div> -->
+                    <div id="parallax1" class="parallaxParent">
+                    <div style="background-image: url(img/hero-landlords.jpg); background-size: 100%;"></div>
+                    </div>
+            <!--         <img src="img/hero-landlords.jpg" class="img-responsive">   -->      
+                    <div class="carousel-caption">
+                  <h1>Let us help you protect your investment</h1>
          <!--    <div id="searchForm" class="gcse-search-wrapper"></div> -->
-
-            </div>
+                </div>
 
                     </div>
                 </div>

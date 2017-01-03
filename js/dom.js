@@ -32,6 +32,28 @@ function imageCaptions() {
         });
 };
 
+  // init controller
+  var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+
+  // build scenes
+  new ScrollMagic.Scene({triggerElement: "#parallax1"})
+          .setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
+          .addIndicators()
+          .addTo(controller);
+
+  // var scene = new ScrollMagic.Scene({triggerElement: "#parallax1", duration: 300})
+  //           .setPin("#pin1")
+  //           .addIndicators({name: "1 (duration: 300)"}) // add indicators (requires plugin)
+  //           .addTo(controller);
+
+// $('.parallax-window').parallax({imageSrc: '../../img/hero-landlords.jpg'});
+
+// $('.parallax-window').parallax({
+//     // naturalWidth: 600,
+//     // naturalHeight: 365
+//     zIndex:2
+//   });
+
 // (function(window){
 
 //   // get vars

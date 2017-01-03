@@ -7,7 +7,7 @@ var base_url = base.protocol + "//" + base.host + "/" + base.pathname.split('/')
 var config = {
   cref: 'http://www.bessettcreative.com/sm/cse/cref_cse.xml',
   gcseId: '013413336405187782954:zhd6omghotc',
-  resultsUrl: host +'/search-results.php',
+  resultsUrl: base_url +'/search-results.php',
   searchWrapperClass: 'gcse-search-wrapper',
   miniSearchWrapperClass: 'mini-nav-search',
   resultsWrapperClass: 'gcse-results-wrapper'
@@ -44,6 +44,7 @@ function miniSearch() {
       classie.add(searchEl,"focus");
       classie.add(searchEl,"active");
       classie.add(cseWrap,"search-open");
+      $( "#gsc-i-id1" ).focus();
     }
   });
   // register clicks outisde search box, and toggle correct classes

@@ -1,3 +1,11 @@
+   .nav  {
+    li {
+      @include fadeIn();
+      z-index: 22;
+      position: relative;
+  }
+}
+
 .mini-cse-search {
     position: absolute;
     margin-top: 0;
@@ -62,11 +70,13 @@ td.gsc-input {
     float: right;
   input {
   position: absolute;
+  color:#fff !important;
   top: 0;
   right: 0;
   border: none;
   outline: none;
-  background: #fff;
+  background: transparent !important;
+    background-color:transparent !important;
   height: 60px;
   margin: 0;
   width:100%;
@@ -74,9 +84,14 @@ td.gsc-input {
   padding: 10px;
   font-family: inherit;
   font-size: 20px;
-  color: #2c3e50;
+  color: #fff;
  // transition left 0.3s ease;
-  text-align: right;
+   @include placeholder {
+   color:#fff;
+     @include opacity(0.50);
+    }
+  text-align: right; 
+ 
   }
 
 }
@@ -107,7 +122,21 @@ td.gsc-input {
   }
 
 }
-.search-open .mini-cse-search {
+.search-open {
+   .nav  {
+    li {
+      @include fadeOut(
+       
+        $duration: 0.4s,
+        $count: 1,
+        $delay: .1s,
+        $function: ease
+      );
+            z-index: -1;
+      position: relative;
+    }
+   }
+  .mini-cse-search {
   #searchForm {
     z-index: 10;
   }
@@ -117,7 +146,11 @@ td.gsc-input {
   width: 66.66667%;
   height: 100vh;
   td.gsc-input input {
-      @include fadeInRight();
+ @include fadeInRightBig(
+      $duration: 0.2s,
+       $function: ease,
+         $fill: both
+      );
     text-align: left;
     padding-left: 3.5em;
   }
@@ -126,19 +159,25 @@ td.gsc-input {
 }
   .gsc-search-button {
     z-index: 11;
-       float: left;
+    float: left;
     right: 0;
-     // @include fadeInRightBig();
-          @include bounceInRight();
+     @include fadeInRightBig(
+      $duration: 0.3s,
+       $function: ease,
+         $fill: both
+      );
+
+          // @include bounceInRight(); 
   } 
   #label {
     z-index:-1;
-  }
+  } 
 }
-
+}
 
 .mini-quick-links {
     font-size: 15px;
+    padding:20px;
     line-height: 2;
     font-weight: 400;
     letter-spacing: normal;
@@ -146,11 +185,17 @@ td.gsc-input {
     background: #fff;
     border-top: none;
     color: #999;
-    max-height: calc(100% - 44px);
+    max-height: calc(100% - 44px); 
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
-    position:relative;
+    position:relative; 
     z-index: 30;
+    top:5px;
+ @include single-box-shadow;
+
+}
+.gsc-completion-container {
+ @include single-box-shadow;
 }
